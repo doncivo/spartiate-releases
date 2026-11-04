@@ -1,0 +1,46 @@
+{
+  "name": "Spartiate",
+  "subtitle": "Source SideStore de Spartiate",
+  "description": "Planificateur personnel Spartiate pour iPhone.",
+  "identifier": "fr.spartiate.source",
+  "website": "https://github.com/doncivo/spartiate-releases",
+  "iconURL": "https://raw.githubusercontent.com/doncivo/spartiate-releases/main/icon.png",
+  "apps": [
+    {
+      "name": "Spartiate",
+      "bundleIdentifier": "fr.spartiate.app",
+      "developerName": "Ali Cherif",
+      "subtitle": "Planificateur personnel",
+      "localizedDescription": "Tâches, routines, événements et checklists, synchronisés avec la version PC.",
+      "iconURL": "https://raw.githubusercontent.com/doncivo/spartiate-releases/main/icon.png",
+      "tintColor": "#C2410C",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "0.1.0",
+          "date": "2026-11-04T08:11:15.667Z",
+          "localizedDescription": "- Première version de Spartiate pour Windows : identité `fr.spartiate.app`, dépôt de versions `spartiate-releases` (D-58).\n- Base neuve (schéma 1) ; profil et poids synchronisés entre appareils.\n- Mises à jour signées : l'app vérifie `latest.json` et propose la bannière « Installer et redémarrer ».",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.0/Spartiate.ipa",
+          "size": 5941366,
+          "sha256": "a67c478bc06c8336d7395837a9fe88d5edb676f3646fdf0d8c1fa9123fc7b8da",
+          "minOSVersion": "18.0"
+        }
+      ],
+      "version": "0.1.0",
+      "versionDate": "2026-11-04T08:11:15.667Z",
+      "versionDescription": "- Première version de Spartiate pour Windows : identité `fr.spartiate.app`, dépôt de versions `spartiate-releases` (D-58).\n- Base neuve (schéma 1) ; profil et poids synchronisés entre appareils.\n- Mises à jour signées : l'app vérifie `latest.json` et propose la bannière « Installer et redémarrer ».",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.0/Spartiate.ipa",
+      "size": 5941366,
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Spartiate utilise la caméra pour scanner le code d'association affiché sur votre PC et pour photographier une liste de tâches à lire.",
+          "NSFaceIDUsageDescription": "Spartiate utilise Face ID pour garder vos tâches privées.",
+          "NSMicrophoneUsageDescription": "Spartiate utilise le micro seulement pendant que vous dictez une tâche. Rien n'est enregistré.",
+          "NSSpeechRecognitionUsageDescription": "Spartiate transforme votre dictée en texte sur l'iPhone, sans rien envoyer."
+        }
+      }
+    }
+  ],
+  "news": []
+}
