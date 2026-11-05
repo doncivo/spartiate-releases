@@ -1,7 +1,7 @@
 {
   "name": "Spartiate",
   "subtitle": "Source SideStore de Spartiate",
-  "description": "Planificateur personnel Spartiate pour iPhone.",
+  "description": "Spartiate : musculation, nutrition et récupération sur iPhone, synchronisées avec la version PC.",
   "identifier": "fr.spartiate.source",
   "website": "https://github.com/doncivo/spartiate-releases",
   "iconURL": "https://raw.githubusercontent.com/doncivo/spartiate-releases/main/icon.png",
@@ -10,11 +10,21 @@
       "name": "Spartiate",
       "bundleIdentifier": "fr.spartiate.app",
       "developerName": "Ali Cherif",
-      "subtitle": "Planificateur personnel",
-      "localizedDescription": "Tâches, routines, événements et checklists, synchronisés avec la version PC.",
+      "subtitle": "Musculation, nutrition et récupération",
+      "localizedDescription": "Suivi de musculation, de nutrition et de récupération, synchronisé avec la version PC.",
       "iconURL": "https://raw.githubusercontent.com/doncivo/spartiate-releases/main/icon.png",
-      "tintColor": "#C2410C",
+      "tintColor": "#B8322A",
       "versions": [
+        {
+          "version": "0.1.1",
+          "buildVersion": "0.1.1",
+          "date": "2026-11-05T09:27:52.647Z",
+          "localizedDescription": "- Correctif de démarrage iPhone : écran « Démarrage bloqué : <étape> » avec « Réessayer » et « Partager le journal » au-delà de 8 secondes sur une étape ; étapes de démarrage chronométrées au journal technique.\n- Les sections sans écran le disent au lieu d’une zone blanche ; onglets inactifs lisibles sur la barre.\n- Journal technique visible dans l’app Fichiers de l’iPhone (Documents/Journal).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.1/Spartiate.ipa",
+          "size": 5797076,
+          "sha256": "704733649e93edba36c64d422f13de5fb9a2f9e0428ca89190f373f567cd3c2b",
+          "minOSVersion": "18.0"
+        },
         {
           "version": "0.1.0",
           "buildVersion": "0.1.0",
@@ -26,11 +36,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.1.0",
-      "versionDate": "2026-11-04T08:11:15.667Z",
-      "versionDescription": "- Première version de Spartiate pour Windows : identité `fr.spartiate.app`, dépôt de versions `spartiate-releases` (D-58).\n- Base neuve (schéma 1) ; profil et poids synchronisés entre appareils.\n- Mises à jour signées : l'app vérifie `latest.json` et propose la bannière « Installer et redémarrer ».",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.0/Spartiate.ipa",
-      "size": 5941366,
+      "version": "0.1.1",
+      "versionDate": "2026-11-05T09:27:52.647Z",
+      "versionDescription": "- Correctif de démarrage iPhone : écran « Démarrage bloqué : <étape> » avec « Réessayer » et « Partager le journal » au-delà de 8 secondes sur une étape ; étapes de démarrage chronométrées au journal technique.\n- Les sections sans écran le disent au lieu d’une zone blanche ; onglets inactifs lisibles sur la barre.\n- Journal technique visible dans l’app Fichiers de l’iPhone (Documents/Journal).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.1/Spartiate.ipa",
+      "size": 5797076,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
