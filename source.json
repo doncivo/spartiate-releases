@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.1.2",
+          "buildVersion": "0.1.2",
+          "date": "2026-11-05T16:41:31.125Z",
+          "localizedDescription": "- Écrans I0 alignés sur les planches : Aujourd’hui, Profil et poids, Plus (cartes, groupes, contraste).\n- Apple Santé en lecture seule (iPhone) : ligne dans Plus, demande d’accès, poids et pas du jour avec leur source, états vide, refusé et indisponible distincts ; « Utiliser cette pesée » enregistre la pesée sans écraser la saisie manuelle. Aucune écriture dans Santé.\n- Corrections constatées sur l’iPhone : entrée « Verrouillage Face ID » masquée (D-37), grand espace au-dessus des titres supprimé (marge de l’encoche comptée une seule fois), alerte des notifications en jaune d’avertissement.\n- Tous les textes de l’app tutoient.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.2/Spartiate.ipa",
+          "size": 5830078,
+          "sha256": "d8b5d581e69b1a0934554a830a458c242089e5bd60c03d6cdd96495bac952faa",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.1.1",
           "buildVersion": "0.1.1",
           "date": "2026-11-05T09:27:52.647Z",
@@ -36,16 +46,17 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.1.1",
-      "versionDate": "2026-11-05T09:27:52.647Z",
-      "versionDescription": "- Correctif de démarrage iPhone : écran « Démarrage bloqué : <étape> » avec « Réessayer » et « Partager le journal » au-delà de 8 secondes sur une étape ; étapes de démarrage chronométrées au journal technique.\n- Les sections sans écran le disent au lieu d’une zone blanche ; onglets inactifs lisibles sur la barre.\n- Journal technique visible dans l’app Fichiers de l’iPhone (Documents/Journal).",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.1/Spartiate.ipa",
-      "size": 5797076,
+      "version": "0.1.2",
+      "versionDate": "2026-11-05T16:41:31.125Z",
+      "versionDescription": "- Écrans I0 alignés sur les planches : Aujourd’hui, Profil et poids, Plus (cartes, groupes, contraste).\n- Apple Santé en lecture seule (iPhone) : ligne dans Plus, demande d’accès, poids et pas du jour avec leur source, états vide, refusé et indisponible distincts ; « Utiliser cette pesée » enregistre la pesée sans écraser la saisie manuelle. Aucune écriture dans Santé.\n- Corrections constatées sur l’iPhone : entrée « Verrouillage Face ID » masquée (D-37), grand espace au-dessus des titres supprimé (marge de l’encoche comptée une seule fois), alerte des notifications en jaune d’avertissement.\n- Tous les textes de l’app tutoient.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.2/Spartiate.ipa",
+      "size": 5830078,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
           "NSCameraUsageDescription": "Spartiate utilise la caméra pour scanner le code d'association affiché sur votre PC et pour photographier une liste de tâches à lire.",
           "NSFaceIDUsageDescription": "Spartiate utilise Face ID pour garder vos tâches privées.",
+          "NSHealthShareUsageDescription": "Spartiate lit ton poids et tes pas pour les afficher dans l’application. Aucune autre donnée de Santé n’est consultée.",
           "NSMicrophoneUsageDescription": "Spartiate utilise le micro seulement pendant que vous dictez une tâche. Rien n'est enregistré.",
           "NSSpeechRecognitionUsageDescription": "Spartiate transforme votre dictée en texte sur l'iPhone, sans rien envoyer."
         }
