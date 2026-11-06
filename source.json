@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.1.5",
+          "buildVersion": "0.1.5",
+          "date": "2026-11-06T12:25:08.991Z",
+          "localizedDescription": "- Live Activity (SPA-007, H-4) : un compteur de test de 60 s dans Plus › À propos (« Tester le minuteur (60 s) »). Sur iPhone il s’affiche sur l’écran verrouillé et dans la Dynamic Island (extension WidgetKit SpartiateLiveActivity, décompte avancé par le système, aucun push, aucun App Group, aucun mode d’arrière-plan, aucun nouvel entitlement). Si la Live Activity est indisponible, le minuteur reste dans l’app avec une notification à l’échéance et une phrase qui explique pourquoi.\n- Le temps restant est toujours recalculé depuis la date de fin enregistrée (jamais depuis un compteur), la notification n’est jamais en double après une reprise, « Arrêter » ferme l’activité sans la laisser orpheline. Notifications refusées : l’app le dit et ne promet rien. Sur PC : minuteur dans l’app seulement.\n- Build iPhone : l’extension est ajoutée au projet généré (script idempotent), signée avant l’app, et l’IPA finale est contrôlée (extension présente, deux signatures strictes, plist de l’extension). H-4 reste à prouver sur l’iPhone.\n- Projet : la chaîne de livraison (fusion, tags, publication) est confiée à Claude Code (D-70).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.5/Spartiate.ipa",
+          "size": 5909619,
+          "sha256": "5bebcb8cd60652967f976044cd668b4a87b388edac18cdacd8512d5edf43f07f",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.1.4",
           "buildVersion": "0.1.4",
           "date": "2026-11-06T11:06:39.336Z",
@@ -66,11 +76,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.1.4",
-      "versionDate": "2026-11-06T11:06:39.336Z",
-      "versionDescription": "- iPhone : toucher un champ (Poids, Taille…) ne zoome plus la page. Le texte des champs de saisie fait au moins 16 px sur iOS ; le zoom de l’utilisateur reste libre.\n- Synchronisation : Profil et poids et Aujourd’hui se rechargent tout seuls quand la synchro applique des données reçues de l’autre appareil, sans changer d’onglet ; un champ que tu es en train de modifier n’est pas écrasé.\n- Journal des conflits : « Profil : expérience », « Pesée du 5 nov. », valeurs traduites (« Intermédiaire », « Perte de poids », « Homme »…), nombres au format français avec leur unité (« 106,25 kg », « 186 cm »). Plus aucune clé technique ni mot anglais.\n- Synchronisation : « PC : Jamais lu » à tort sur l’iPhone corrigé. Après une reprise depuis un instantané ou un changement d’époque, la dernière modification lue ne dépendait que du dernier enregistrement de journal lu, donc restait vide tant que l’autre appareil n’avait rien écrit de nouveau ; un curseur arrivé à la tête annoncée de l’autre appareil vaut désormais lecture jusqu’à cette tête.\n- Synchronisation : les copies de conflit créées par iCloud (« state 2.spx ») sont ignorées à la lecture, jamais supprimées, et signalées une seule fois dans le journal technique. Une seule synchro tourne à la fois sur chaque appareil (minuteur, retour au premier plan, bouton, écriture différée), vérifié par un test.\n- Apple Santé : quand Santé répond « Missing com.apple.developer.healthkit entitlement » (app installée par SideStore avec un compte Apple gratuit), l’écran dit que Santé n’est pas accessible dans ce cas et que l’import passera par l’app Raccourcis dans une prochaine version ; « Autoriser l’accès » est masqué, « Détail technique » est conservé. Accès direct HealthKit BLOCKED dans la matrice des capacités (D-69).\n- Profil et poids : l’aide « en centimètres, ex. 186 » sous Taille est supprimée, le libellé « Taille (cm) » suffit.\n- iPhone : l’icône de l’app est celle de Spartiate et non l’icône Tauri par défaut. Le build copie src-tauri/icons/ios dans l’AppIcon du projet généré (échec si une taille manque) et contrôle sur l’IPA finale, par hash, que l’icône Spartiate y est.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.4/Spartiate.ipa",
-      "size": 5866380,
+      "version": "0.1.5",
+      "versionDate": "2026-11-06T12:25:08.991Z",
+      "versionDescription": "- Live Activity (SPA-007, H-4) : un compteur de test de 60 s dans Plus › À propos (« Tester le minuteur (60 s) »). Sur iPhone il s’affiche sur l’écran verrouillé et dans la Dynamic Island (extension WidgetKit SpartiateLiveActivity, décompte avancé par le système, aucun push, aucun App Group, aucun mode d’arrière-plan, aucun nouvel entitlement). Si la Live Activity est indisponible, le minuteur reste dans l’app avec une notification à l’échéance et une phrase qui explique pourquoi.\n- Le temps restant est toujours recalculé depuis la date de fin enregistrée (jamais depuis un compteur), la notification n’est jamais en double après une reprise, « Arrêter » ferme l’activité sans la laisser orpheline. Notifications refusées : l’app le dit et ne promet rien. Sur PC : minuteur dans l’app seulement.\n- Build iPhone : l’extension est ajoutée au projet généré (script idempotent), signée avant l’app, et l’IPA finale est contrôlée (extension présente, deux signatures strictes, plist de l’extension). H-4 reste à prouver sur l’iPhone.\n- Projet : la chaîne de livraison (fusion, tags, publication) est confiée à Claude Code (D-70).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.1.5/Spartiate.ipa",
+      "size": 5909619,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
