@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.2.1",
+          "buildVersion": "0.2.1",
+          "date": "2026-11-06T18:00:57.673Z",
+          "localizedDescription": "- Séance active : démarre une séance vide, depuis un jour de routine ou en copiant une séance passée (carte « Séance » dans Aujourd’hui et dans l’onglet Entraînement). Chaque série validée est enregistrée tout de suite ; la séance se reprend à l’identique après verrouillage, fermeture forcée ou redémarrage. Ajout, retrait et annulation de séries, échauffement (jamais compté comme série de travail), exercices chronométrés, abandon avec confirmation. La clôture et le journal arrivent avec la 0.2.2.\n- Minuteur de repos : il démarre seul à la validation d’une série de travail, durée réglable (« Repos par défaut »), boutons « +30 s » et « Passer ». Le temps restant est toujours recalculé depuis la date de fin enregistrée. Sur iPhone : Live Activity « Repos » (sinon minuteur dans l’app avec une phrase qui explique pourquoi) et notification « Repos terminé » sans doublon ; sur PC : minuteur dans l’app seulement.\n- Live Activity : texte clair sur le fond de la charte (plus de texte noir illisible sur l’écran verrouillé), heure de fin toujours lisible, état final « Terminé » et fin programmée de l’activité ; à constater sur l’iPhone.\n- Données : migration 0003 (séances et séries, locales tant qu’elles ne sont pas closes : rien n’est publié par la synchro).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.2.1/Spartiate.ipa",
+          "size": 5980843,
+          "sha256": "8a8bfbbe351bd1a0c9c7fc1c1b5df4f3fff569c518d26701f16cee9bd42ee230",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.2.0",
           "buildVersion": "0.2.0",
           "date": "2026-11-06T17:14:49.947Z",
@@ -96,11 +106,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.2.0",
-      "versionDate": "2026-11-06T17:14:49.947Z",
-      "versionDescription": "- Entraînement : l’onglet Entraînement s’ouvre sur trois sections, Routines, Bibliothèque et Matériel (chargées à la demande, le démarrage de l’app ne grossit pas).\n- Bibliothèque : 150 exercices (recherche en français ou par alias anglais, filtre par groupe musculaire, bascule « compatibles avec mon matériel », fiche avec muscles, matériel, consignes, repos et alternatives, sans image) et exercices personnalisés (création, modification, suppression ; un exercice supprimé reste affiché par son nom dans les routines et l’historique).\n- Matériel : profil « Fitness Park Antony » utilisé par défaut, trois autres profils de départ, duplication d’un profil pour le modifier ; le profil actif reste propre à l’appareil.\n- Routines : les 4 programmes de départ (Haut / Bas 4 j, Full Body 3 j, PPL 6 j, Maison haltères 3 j) s’ajoutent en une fois et se modifient (jours, exercices, séries, plages de répétitions, repos, RIR, ordre) ; un exercice incompatible avec le matériel actif est signalé sans bloquer.\n- Données : migration 0002 (exercices personnalisés, profils de matériel, routines) ; ces tables se synchronisent entre le PC et l’iPhone, les exercices embarqués restent hors de la base. Les sauvegardes du PC acceptent le schéma 2. Le contenu des exercices et des programmes est à relire par Ali (docs/i1-01-contenu-a-relire.md).\n- Mise à jour : mets à jour le PC et l’iPhone le même jour, sans restauration ni nouvel appairage entre les deux.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.2.0/Spartiate.ipa",
-      "size": 5958193,
+      "version": "0.2.1",
+      "versionDate": "2026-11-06T18:00:57.673Z",
+      "versionDescription": "- Séance active : démarre une séance vide, depuis un jour de routine ou en copiant une séance passée (carte « Séance » dans Aujourd’hui et dans l’onglet Entraînement). Chaque série validée est enregistrée tout de suite ; la séance se reprend à l’identique après verrouillage, fermeture forcée ou redémarrage. Ajout, retrait et annulation de séries, échauffement (jamais compté comme série de travail), exercices chronométrés, abandon avec confirmation. La clôture et le journal arrivent avec la 0.2.2.\n- Minuteur de repos : il démarre seul à la validation d’une série de travail, durée réglable (« Repos par défaut »), boutons « +30 s » et « Passer ». Le temps restant est toujours recalculé depuis la date de fin enregistrée. Sur iPhone : Live Activity « Repos » (sinon minuteur dans l’app avec une phrase qui explique pourquoi) et notification « Repos terminé » sans doublon ; sur PC : minuteur dans l’app seulement.\n- Live Activity : texte clair sur le fond de la charte (plus de texte noir illisible sur l’écran verrouillé), heure de fin toujours lisible, état final « Terminé » et fin programmée de l’activité ; à constater sur l’iPhone.\n- Données : migration 0003 (séances et séries, locales tant qu’elles ne sont pas closes : rien n’est publié par la synchro).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.2.1/Spartiate.ipa",
+      "size": 5980843,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
