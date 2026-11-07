@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.3.1",
+          "buildVersion": "0.3.1",
+          "date": "2026-11-07T23:12:39.974Z",
+          "localizedDescription": "- Séance : chaque exercice affiche maintenant une **Proposition** — charge et répétitions pour chaque série (ex. « 62,5 kg × 8 · 8 · 8 »), une phrase qui dit pourquoi (ex. « +2,5 kg : 3 × 10 atteint la dernière fois. ») et la confiance (« Confiance 50 % (moyenne) »). Un exercice jamais fait affiche « À saisir » : aucune charge n’est inventée. Les exercices au poids du corps ou chronométrés n’ont pas de proposition.\n- Rien n’est rempli sans toi : **Accepter** remplit les séries à faire encore vides (tu peux encore les changer avant de valider), **Modifier** te laisse saisir ta charge et tes répétitions (Entrée pour enregistrer, Échap pour annuler), **Refuser** ne remplit rien. Ton choix est enregistré (accepté, modifié ou refusé) et part sur l’autre appareil avec la séance terminée ; une séance abandonnée n’en garde rien, et la séance suivante repart de ce que tu as réellement fait.\n- Sous la proposition, **Ressenti de l’exercice** : Facile, Juste ou Dur (facultatif ; un second appui efface). « Dur » empêche la hausse de charge à la séance suivante ; « Facile » avec une confiance sous 60 % recale l’estimation de +5 % quand tu termines la séance (au plus une fois par mois et par exercice ; une séance abandonnée ne compte pas).\n- Synchro : tes ressentis, tes choix et le suivi par exercice passent maintenant d’un appareil à l’autre, avec les séances terminées. Export et import les incluent ; un export fait en 0.3.0 reste importable.\n- Mise à jour de la base (version 6). **Mets à jour le PC et l’iPhone le même jour** : un appareil resté en 0.3.0 garde de côté ce qui vient de la 0.3.1 (rien n’est perdu, tout revient après sa mise à jour), mais refuse une sauvegarde ou un export fait en 0.3.1. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.1/Spartiate.ipa",
+          "size": 6011424,
+          "sha256": "2ff2e219c8e6a5c1196d705f59558d63ae2413a8ff776f7858afc639d657239f",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.0",
           "buildVersion": "0.3.0",
           "date": "2026-11-07T19:23:13.242Z",
@@ -146,11 +156,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.0",
-      "versionDate": "2026-11-07T19:23:13.242Z",
-      "versionDescription": "- Moteur de charges (I2), en coulisse : l’app sait maintenant calculer la prochaine charge et les prochaines répétitions de chaque exercice à partir de tes séances terminées, mais ne l’affiche pas encore (ce sera la 0.3.1). Rien ne change à l’écran.\n- Règles validées le 7 nov. : jamais de charge inventée (un exercice jamais fait reste « à saisir ») ; une répétition de plus sur une seule série tant que le haut de la plage n’est pas atteint partout (8-7-6 → 8-8-6 → 8-8-7 → 8-8-8), puis un cran de matériel ; hausse plafonnée à +10 % ; arrondi à la charge disponible juste en dessous, avec une répétition de plus si l’écart dépasse 3 % ; « Dur » bloque la hausse ; ta valeur l’emporte toujours. Les arrondis suivent ton profil de matériel (par défaut Fitness Park Antony).\n- Mise à jour de la base (version 5) : deux tables vides ajoutées pour le suivi par exercice et tes choix (accepté ou modifié). Elles restent sur l’appareil pour l’instant ; leur synchro arrive avec l’affichage.\n- Mise à jour : mets à jour le PC et l’iPhone le même jour. Une app restée en 0.2.x affiche « version plus récente » et refuse une sauvegarde ou un export fait en 0.3.0, même si rien n’y est illisible pour elle.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.0/Spartiate.ipa",
-      "size": 5998399,
+      "version": "0.3.1",
+      "versionDate": "2026-11-07T23:12:39.974Z",
+      "versionDescription": "- Séance : chaque exercice affiche maintenant une **Proposition** — charge et répétitions pour chaque série (ex. « 62,5 kg × 8 · 8 · 8 »), une phrase qui dit pourquoi (ex. « +2,5 kg : 3 × 10 atteint la dernière fois. ») et la confiance (« Confiance 50 % (moyenne) »). Un exercice jamais fait affiche « À saisir » : aucune charge n’est inventée. Les exercices au poids du corps ou chronométrés n’ont pas de proposition.\n- Rien n’est rempli sans toi : **Accepter** remplit les séries à faire encore vides (tu peux encore les changer avant de valider), **Modifier** te laisse saisir ta charge et tes répétitions (Entrée pour enregistrer, Échap pour annuler), **Refuser** ne remplit rien. Ton choix est enregistré (accepté, modifié ou refusé) et part sur l’autre appareil avec la séance terminée ; une séance abandonnée n’en garde rien, et la séance suivante repart de ce que tu as réellement fait.\n- Sous la proposition, **Ressenti de l’exercice** : Facile, Juste ou Dur (facultatif ; un second appui efface). « Dur » empêche la hausse de charge à la séance suivante ; « Facile » avec une confiance sous 60 % recale l’estimation de +5 % quand tu termines la séance (au plus une fois par mois et par exercice ; une séance abandonnée ne compte pas).\n- Synchro : tes ressentis, tes choix et le suivi par exercice passent maintenant d’un appareil à l’autre, avec les séances terminées. Export et import les incluent ; un export fait en 0.3.0 reste importable.\n- Mise à jour de la base (version 6). **Mets à jour le PC et l’iPhone le même jour** : un appareil resté en 0.3.0 garde de côté ce qui vient de la 0.3.1 (rien n’est perdu, tout revient après sa mise à jour), mais refuse une sauvegarde ou un export fait en 0.3.1. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.1/Spartiate.ipa",
+      "size": 6011424,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
