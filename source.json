@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.2.4",
+          "buildVersion": "0.2.4",
+          "date": "2026-11-07T15:47:19.765Z",
+          "localizedDescription": "- Journal technique plus parlant : la synchro note ce qui se passe (lignes reçues et appareil d’origine, enregistrements publiés, fichiers que l’iCloud n’a pas encore téléchargés), seulement quand il se passe quelque chose. Les échecs disent l’étape où ils sont survenus ; sur PC, une erreur de fichier dit si le fichier est verrouillé, refusé ou en cours de suppression. Les erreurs imprévues de l’app sont notées aussi. Aucun titre, aucune note, aucune valeur : des codes, des compteurs et des noms de tables.\n- Plus → Logs → Exporter : le fichier commence par un bilan (version, appareils connus et leur dernière synchro, entrées en attente d’envoi, lignes mises de côté, conflits, nombre de lignes par table). Le fichier garde jusqu’à 2 000 entrées au lieu de 500.\n- Synchro plus réactive : quand un fichier d’iCloud n’est pas encore là, un nouveau passage a lieu 10 secondes plus tard (trois fois au plus), au lieu d’attendre. Le Journal d’entraînement du PC se relit dès qu’une séance arrive, même s’il est déjà ouvert.\n- Séance : si tu fermes l’app pendant le résumé de fin, « Mettre à jour la routine ? » t’est reproposée à la réouverture.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.2.4/Spartiate.ipa",
+          "size": 5996983,
+          "sha256": "751f8f99486e878eee6c7977103cb9e4ab12760cbb669a7305b89f0950a0560c",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.2.3",
           "buildVersion": "0.2.3",
           "date": "2026-11-07T11:27:37.720Z",
@@ -126,11 +136,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.2.3",
-      "versionDate": "2026-11-07T11:27:37.720Z",
-      "versionDescription": "- Export / import : l’archive contient maintenant tes routines, tes exercices personnalisés, tes profils de matériel et tes séances terminées avec leurs séries, en plus du profil et des pesées. Une séance en cours n’est jamais exportée. « Remplacer » ne supprime tes séances que si l’archive contient des données d’entraînement (une archive d’avant la 0.2.3 n’en supprime aucune).\n- Routines : « Enregistrer la routine » revient à la liste avec une confirmation courte.\n- Séance : types de série renommés (« Normale » par défaut, Échauffement, Dégressive, Partielle), avec une aide d’une ligne ; un repos nul n’affiche plus « repos 0 s ».\n- Notifications : la fin du repos et le minuteur de test ont chacun leur notification (lancer l’un n’annule plus l’autre).\n- PC : la ligne « Tester le minuteur » ne parle plus de Live Activity ni de Dynamic Island.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.2.3/Spartiate.ipa",
-      "size": 5992983,
+      "version": "0.2.4",
+      "versionDate": "2026-11-07T15:47:19.765Z",
+      "versionDescription": "- Journal technique plus parlant : la synchro note ce qui se passe (lignes reçues et appareil d’origine, enregistrements publiés, fichiers que l’iCloud n’a pas encore téléchargés), seulement quand il se passe quelque chose. Les échecs disent l’étape où ils sont survenus ; sur PC, une erreur de fichier dit si le fichier est verrouillé, refusé ou en cours de suppression. Les erreurs imprévues de l’app sont notées aussi. Aucun titre, aucune note, aucune valeur : des codes, des compteurs et des noms de tables.\n- Plus → Logs → Exporter : le fichier commence par un bilan (version, appareils connus et leur dernière synchro, entrées en attente d’envoi, lignes mises de côté, conflits, nombre de lignes par table). Le fichier garde jusqu’à 2 000 entrées au lieu de 500.\n- Synchro plus réactive : quand un fichier d’iCloud n’est pas encore là, un nouveau passage a lieu 10 secondes plus tard (trois fois au plus), au lieu d’attendre. Le Journal d’entraînement du PC se relit dès qu’une séance arrive, même s’il est déjà ouvert.\n- Séance : si tu fermes l’app pendant le résumé de fin, « Mettre à jour la routine ? » t’est reproposée à la réouverture.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.2.4/Spartiate.ipa",
+      "size": 5996983,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
