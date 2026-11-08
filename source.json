@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.8.0",
+          "buildVersion": "0.8.0",
+          "date": "2026-11-08T22:45:34.778Z",
+          "localizedDescription": "- **Open Food Facts et scan de code-barres** (Nutrition → Journal → Rechercher un aliment). **Scanner** (iPhone) lit EAN-13, EAN-8 et UPC ; un champ **Code-barres** permet de saisir le code à la main (PC et iPhone). **Chercher en ligne** interroge Open Food Facts, seulement quand tu appuies dessus (jamais à la frappe).\n- Ce qui part sur le réseau : seulement le code-barres ou le texte cherché, en HTTPS, sans aucun identifiant ni donnée personnelle. Recherche en ligne limitée à 10 par minute. Une fiche choisie est gardée 90 jours dans l’appareil : le même scan se relit sans réseau.\n- Cas dégradés en français : hors ligne ou délai dépassé (la recherche Ciqual reste là), produit inconnu (fiche perso pré-remplie avec le code), fiche incomplète (valeurs manquantes inconnues, jamais 0), refus de la caméra (chemin Réglages). Chaque fiche issue d’Open Food Facts porte la mention « Open Food Facts » (licence ODbL, voir docs/licences.md).\n- Pas encore : recettes, favoris, photo de repas (IA). Réglages par défaut proposés cette nuit (D-77, D-78), révisables. **Pas de mise à jour de la base** (reste en version 8).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.8.0/Spartiate.ipa",
+          "size": 6896407,
+          "sha256": "1153b9a5e247186d1d812fb2e2080fee06dd2e6ba4b6718a09a20d9eef91ecc1",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.7.1",
           "buildVersion": "0.7.1",
           "date": "2026-11-08T21:14:58.134Z",
@@ -236,11 +246,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.7.1",
-      "versionDate": "2026-11-08T21:14:58.134Z",
-      "versionDescription": "Correctifs de mise en page et de cohérence, vus sur l’iPhone en 0.7.0. Pas de mise à jour de la base.\n\n- **Nutrition, fiche d’ajout d’un aliment** : plus aucun débordement à droite (Quantité et Heure se partagent la largeur de la carte), marge intérieure comme les autres cartes ; le bas de la fiche (« Choisir un autre aliment », « Annuler ») reste atteignable au-dessus de la barre d’onglets et du clavier.\n- **Cartes sans marge** : « Séance » et « Nutrition » d’Aujourd’hui et « Séance » d’Entraînement ont la marge intérieure de la carte « Poids » (une seule cause corrigée).\n- **Onglets** d’Entraînement (Routines, Bibliothèque, Matériel, Journal, Cycle) et de Nutrition : une seule ligne, qui défile si besoin ; l’onglet actif reste visible.\n- **Bibliothèque** : filtres compacts les uns sous les autres, la liste se voit sans défiler.\n- **Poids de tendance** : une seule règle pour Aujourd’hui et le Dashboard. Tant que la tendance apprend (moins de 14 pesées), le Dashboard montre la dernière pesée et « en apprentissage », pas un chiffre de tendance.\n- **Graphique de tendance** : avec peu de données, l’axe couvre au moins 7 jours finissant aujourd’hui ; l’échelle englobe toutes les pesées avec une marge.\n- **Check-in** : avant la première donnée saisie, l’écran dit « Premier check-in : lundi 9 novembre » avec ce qu’il faut d’ici là, au lieu d’un check-in suspendu sur une semaine vide. La règle de décision ne change pas.\n- **Dates** : « 1er novembre » au lieu de « 1 novembre », partout.\n- **Aujourd’hui, « Arrive ensuite »** : ne garde que la Récupération (Séance et Nutrition sont livrées).",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.7.1/Spartiate.ipa",
-      "size": 6158143,
+      "version": "0.8.0",
+      "versionDate": "2026-11-08T22:45:34.778Z",
+      "versionDescription": "- **Open Food Facts et scan de code-barres** (Nutrition → Journal → Rechercher un aliment). **Scanner** (iPhone) lit EAN-13, EAN-8 et UPC ; un champ **Code-barres** permet de saisir le code à la main (PC et iPhone). **Chercher en ligne** interroge Open Food Facts, seulement quand tu appuies dessus (jamais à la frappe).\n- Ce qui part sur le réseau : seulement le code-barres ou le texte cherché, en HTTPS, sans aucun identifiant ni donnée personnelle. Recherche en ligne limitée à 10 par minute. Une fiche choisie est gardée 90 jours dans l’appareil : le même scan se relit sans réseau.\n- Cas dégradés en français : hors ligne ou délai dépassé (la recherche Ciqual reste là), produit inconnu (fiche perso pré-remplie avec le code), fiche incomplète (valeurs manquantes inconnues, jamais 0), refus de la caméra (chemin Réglages). Chaque fiche issue d’Open Food Facts porte la mention « Open Food Facts » (licence ODbL, voir docs/licences.md).\n- Pas encore : recettes, favoris, photo de repas (IA). Réglages par défaut proposés cette nuit (D-77, D-78), révisables. **Pas de mise à jour de la base** (reste en version 8).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.8.0/Spartiate.ipa",
+      "size": 6896407,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
