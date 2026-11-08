@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.4.0",
+          "buildVersion": "0.4.0",
+          "date": "2026-11-08T02:32:52.655Z",
+          "localizedDescription": "- **Séance proposée** (Entraînement → Nouvelle séance → Séance proposée) : l’app compose une séance à partir de ta routine, avec trois modes. **Guidé** : l’app propose tout ; **Libre** : tu choisis les exercices, elle propose les charges (rien n’est remplacé sans toi, un remplaçant est seulement suggéré) ; **Maison** : comme Guidé, limité au matériel maison. Tu peux régler le temps disponible (« J’ai 35 min »), les priorités et les douleurs ; le matériel et les douleurs sont toujours respectés, un mouvement sans remplaçant compatible est simplement omis.\n- Rien n’est écrit avant « Commencer cette séance », et ta routine n’est jamais modifiée. Le style (droites, pyramide, inversée) est une consigne d’ordre, non enregistrée. Ce sont des réglages par défaut proposés cette nuit (D-73) : ils sont révisables, dis-moi ce que tu veux changer. Pas de mise à jour de la base.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.4.0/Spartiate.ipa",
+          "size": 6025586,
+          "sha256": "bb2655e90c0c4b441728c027c6ebc61f025ad07ae9f1d2767f2f0104b0375f03",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.4",
           "buildVersion": "0.3.4",
           "date": "2026-11-08T02:00:21.829Z",
@@ -186,11 +196,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.4",
-      "versionDate": "2026-11-08T02:00:21.829Z",
-      "versionDescription": "- Séance : **échauffement**. Sous la proposition d’un exercice, quand tu l’acceptes ou la modifies, l’app ajoute une rampe de séries d’échauffement légères (40 % × 8, 60 % × 5, 80 % × 2 de la charge de travail), calées sur les charges que ton matériel permet vraiment (paire d’haltères de 9 kg comprise). Une rampe par groupe de mouvement, sur le premier exercice composé ; rien n’est ajouté après un refus, pour un exercice « à saisir », ou si tu as déjà commencé l’exercice. Une rampe ne passe jamais avant une série que tu as déjà validée. Pas de mise à jour de la base.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.4/Spartiate.ipa",
-      "size": 6017054,
+      "version": "0.4.0",
+      "versionDate": "2026-11-08T02:32:52.655Z",
+      "versionDescription": "- **Séance proposée** (Entraînement → Nouvelle séance → Séance proposée) : l’app compose une séance à partir de ta routine, avec trois modes. **Guidé** : l’app propose tout ; **Libre** : tu choisis les exercices, elle propose les charges (rien n’est remplacé sans toi, un remplaçant est seulement suggéré) ; **Maison** : comme Guidé, limité au matériel maison. Tu peux régler le temps disponible (« J’ai 35 min »), les priorités et les douleurs ; le matériel et les douleurs sont toujours respectés, un mouvement sans remplaçant compatible est simplement omis.\n- Rien n’est écrit avant « Commencer cette séance », et ta routine n’est jamais modifiée. Le style (droites, pyramide, inversée) est une consigne d’ordre, non enregistrée. Ce sont des réglages par défaut proposés cette nuit (D-73) : ils sont révisables, dis-moi ce que tu veux changer. Pas de mise à jour de la base.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.4.0/Spartiate.ipa",
+      "size": 6025586,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
