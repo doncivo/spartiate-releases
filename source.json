@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.3.3",
+          "buildVersion": "0.3.3",
+          "date": "2026-11-08T01:27:26.825Z",
+          "localizedDescription": "- Séance : la phrase de la Proposition te prévient quand les charges reposent sur du matériel marqué « à vérifier » dans ton profil (barre EZ, machine…), et quand ta dernière séance, avec moins de la moitié des séries faites, n’est pas prise en compte. La proposition elle-même ne change pas.\n- Profil de matériel Fitness Park Antony copié avant la 0.3.0 : la paire d’haltères de 9 kg est de nouveau proposée, sans rien modifier dans ton profil. Pas de mise à jour de la base.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.3/Spartiate.ipa",
+          "size": 6016635,
+          "sha256": "27d75bd6b93f0134de9841ecf7890f62a78c05a61032bb050005e6c8fcc33cb3",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.2",
           "buildVersion": "0.3.2",
           "date": "2026-11-08T00:41:27.059Z",
@@ -166,11 +176,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.2",
-      "versionDate": "2026-11-08T00:41:27.059Z",
-      "versionDescription": "- Correctifs du moteur après relecture à froid : une charge très au-dessus de ton historique (faute de frappe possible) n’est jamais augmentée tant qu’une seconde séance ne la confirme pas, et la phrase te demande de vérifier ta saisie ; la charge de référence est celle de la majorité de tes séries, plus un seul top set ; au haut de la fourchette, un « Facile » ne remplace plus le cran de matériel.\n- **Apple Santé, pesées via Raccourcis** (Plus → Apple Santé → Importer) : tu importes le fichier écrit par le raccourci « Spartiate — poids » (guide : docs/guide-raccourcis-sante.md). Une pesée par jour, la plus récente ; une pesée que tu as supprimée ne revient pas à l’import suivant ; ta saisie manuelle du jour est conservée. Le format réel du fichier reste à confirmer sur ton iPhone (hypothèse H-21).\n- PC : les erreurs de fichier iCloud verrouillé qui restaient muettes dans le journal portent maintenant leur cause (fichier utilisé, accès refusé, suppression en attente, autre), sans chemin ni contenu.\n- Séance : la **Proposition** tient compte de ta forme du moment, toujours pour maintenir ou alléger, jamais pour ajouter. Une phrase dit pourquoi, et les autres signaux s’affichent en texte juste en dessous.\n- **Fatigue** : si tu as fait plus de 20 % de répétitions en moins qu’à la dernière séance à la même charge (20 % pile ne compte pas), la proposition garde ta charge et tes répétitions, sans hausse. Deux **choix facultatifs** s’affichent : « −5 % de charge » ou « 2 répétitions de moins par série ». Aucun n’est appliqué tout seul : « Choisir » remplit les séries à faire, « Accepter » garde la proposition, « Refuser » ne remplit rien.\n- **3 séances sans progrès** : trois pistes facultatives : essayer une variante de l’exercice, changer de plage de répétitions dans la routine, ou un mini-deload à −10 % (le seul des trois qu’on peut choisir d’un geste).\n- **Pause** : à partir de 3 semaines sans travailler l’exercice, la charge baisse de 1 % par semaine au-delà de 2 semaines, jusqu’à −10 % au plus. Une séance manquée n’est pas comptée comme un recul. Pour l’instant la pause se mesure sur l’exercice lui-même, pas encore sur le muscle travaillé par d’autres exercices.\n- **Deload pour cette séance** (bouton facultatif sous la proposition) : moitié des séries arrondie en dessous (au moins une), charge × 0,8, au moins 4 répétitions en réserve. Une fois retenue, la séance reste dans ton historique, mais ne compte pas pour les propositions suivantes.\n- Récupération (Recovery, sommeil, FC de repos) : le moteur sait la prendre en compte (−5 % de charge et une série de moins sur un exercice d’isolation si elle est basse), mais rien ne l’alimente encore. Elle arrivera avec Apple Santé (I5) ; d’ici là, aucune valeur n’est inventée.\n- Ta saisie l’emporte toujours, et chaque choix est enregistré avec la séance (accepté, modifié, choix facultatif ou refus). Pas de mise à jour de la base ; mets quand même à jour le PC et l’iPhone le même jour : un appareil resté en 0.3.1 compterait une séance de deload comme une séance normale. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.2/Spartiate.ipa",
-      "size": 6015946,
+      "version": "0.3.3",
+      "versionDate": "2026-11-08T01:27:26.825Z",
+      "versionDescription": "- Séance : la phrase de la Proposition te prévient quand les charges reposent sur du matériel marqué « à vérifier » dans ton profil (barre EZ, machine…), et quand ta dernière séance, avec moins de la moitié des séries faites, n’est pas prise en compte. La proposition elle-même ne change pas.\n- Profil de matériel Fitness Park Antony copié avant la 0.3.0 : la paire d’haltères de 9 kg est de nouveau proposée, sans rien modifier dans ton profil. Pas de mise à jour de la base.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.3/Spartiate.ipa",
+      "size": 6016635,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
