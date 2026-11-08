@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.6.0",
+          "buildVersion": "0.6.0",
+          "date": "2026-11-08T05:18:37.442Z",
+          "localizedDescription": "- Nutrition, en coulisse (I4) : l’app sait maintenant calculer tendance de poids, dépense et cibles (activité déclarée sédentaire / légère / modérée / active, dépense mesurée après 28 jours de données), et garde en mémoire le catalogue d’aliments (table Ciqual de l’Anses, 3 484 aliments, chargée à la demande), le journal des repas et les cibles. **Rien n’est encore affiché** : l’écran Nutrition arrive ensuite. Réglages par défaut proposés cette nuit (D-74), révisables : jours hauts / bas désactivés.\n- Mise à jour de la base (version 8) : quatre tables ajoutées, qui passent d’un appareil à l’autre. **Mets à jour le PC et l’iPhone le même jour** : un appareil resté en 0.5.0 garde de côté ce qui vient de la 0.6.0 (rien n’est perdu), mais refuse une sauvegarde ou un export fait en 0.6.0. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.6.0/Spartiate.ipa",
+          "size": 6048049,
+          "sha256": "30f3041c5a6b3b684df0edb8543fe8574b024db2ade8788b5cb559b2293d23bf",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.5.0",
           "buildVersion": "0.5.0",
           "date": "2026-11-08T04:01:34.745Z",
@@ -206,11 +216,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.5.0",
-      "versionDate": "2026-11-08T04:01:34.745Z",
-      "versionDescription": "- **Cycle** (Entraînement → section Cycle) : un mésocycle de 5 semaines par défaut (4 à 7 au choix), dernière semaine en deload ; l’option « illimité » enchaîne des blocs de 5 semaines avec un deload à la fin de chaque bloc. Séries −1 / 0 / 0 / +1 et RIR 3 / 2 / 1 / 1 sur les semaines de travail : jamais de RIR 0. « Proposer une séance » suit la semaine du cycle ; en semaine de deload, l’option « Deload » est cochée d’office dans la proposition (tu peux la décocher).\n- Deload anticipé : l’app peut te le proposer, jamais l’imposer. **Pause** : le cycle se fige et se décale d’autant, sans jours manqués ni notifications ; après plus de 21 jours d’arrêt, une semaine allégée est proposée à la reprise. Bilan de fin de cycle : répéter, régénérer, changer ou terminer.\n- Ce sont des réglages par défaut (D-73), révisables : dis-moi ce que tu veux changer.\n- **Mise à jour de la base (version 7)** : une table de cycle est ajoutée et passe d’un appareil à l’autre. **Mets à jour le PC et l’iPhone le même jour** : un appareil resté en 0.4.0 garde de côté le cycle reçu (rien n’est perdu, tout revient après sa mise à jour), mais refuse une sauvegarde ou un export fait en 0.5.0. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.5.0/Spartiate.ipa",
-      "size": 6036560,
+      "version": "0.6.0",
+      "versionDate": "2026-11-08T05:18:37.442Z",
+      "versionDescription": "- Nutrition, en coulisse (I4) : l’app sait maintenant calculer tendance de poids, dépense et cibles (activité déclarée sédentaire / légère / modérée / active, dépense mesurée après 28 jours de données), et garde en mémoire le catalogue d’aliments (table Ciqual de l’Anses, 3 484 aliments, chargée à la demande), le journal des repas et les cibles. **Rien n’est encore affiché** : l’écran Nutrition arrive ensuite. Réglages par défaut proposés cette nuit (D-74), révisables : jours hauts / bas désactivés.\n- Mise à jour de la base (version 8) : quatre tables ajoutées, qui passent d’un appareil à l’autre. **Mets à jour le PC et l’iPhone le même jour** : un appareil resté en 0.5.0 garde de côté ce qui vient de la 0.6.0 (rien n’est perdu), mais refuse une sauvegarde ou un export fait en 0.6.0. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.6.0/Spartiate.ipa",
+      "size": 6048049,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
