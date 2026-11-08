@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.3.4",
+          "buildVersion": "0.3.4",
+          "date": "2026-11-08T02:00:21.829Z",
+          "localizedDescription": "- Séance : **échauffement**. Sous la proposition d’un exercice, quand tu l’acceptes ou la modifies, l’app ajoute une rampe de séries d’échauffement légères (40 % × 8, 60 % × 5, 80 % × 2 de la charge de travail), calées sur les charges que ton matériel permet vraiment (paire d’haltères de 9 kg comprise). Une rampe par groupe de mouvement, sur le premier exercice composé ; rien n’est ajouté après un refus, pour un exercice « à saisir », ou si tu as déjà commencé l’exercice. Une rampe ne passe jamais avant une série que tu as déjà validée. Pas de mise à jour de la base.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.4/Spartiate.ipa",
+          "size": 6017054,
+          "sha256": "2a5c149e38a1cd684147dcbc42920106d915475789c62b93978f18b1a3057223",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.3.3",
           "buildVersion": "0.3.3",
           "date": "2026-11-08T01:27:26.825Z",
@@ -176,11 +186,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.3.3",
-      "versionDate": "2026-11-08T01:27:26.825Z",
-      "versionDescription": "- Séance : la phrase de la Proposition te prévient quand les charges reposent sur du matériel marqué « à vérifier » dans ton profil (barre EZ, machine…), et quand ta dernière séance, avec moins de la moitié des séries faites, n’est pas prise en compte. La proposition elle-même ne change pas.\n- Profil de matériel Fitness Park Antony copié avant la 0.3.0 : la paire d’haltères de 9 kg est de nouveau proposée, sans rien modifier dans ton profil. Pas de mise à jour de la base.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.3/Spartiate.ipa",
-      "size": 6016635,
+      "version": "0.3.4",
+      "versionDate": "2026-11-08T02:00:21.829Z",
+      "versionDescription": "- Séance : **échauffement**. Sous la proposition d’un exercice, quand tu l’acceptes ou la modifies, l’app ajoute une rampe de séries d’échauffement légères (40 % × 8, 60 % × 5, 80 % × 2 de la charge de travail), calées sur les charges que ton matériel permet vraiment (paire d’haltères de 9 kg comprise). Une rampe par groupe de mouvement, sur le premier exercice composé ; rien n’est ajouté après un refus, pour un exercice « à saisir », ou si tu as déjà commencé l’exercice. Une rampe ne passe jamais avant une série que tu as déjà validée. Pas de mise à jour de la base.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.3.4/Spartiate.ipa",
+      "size": 6017054,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
