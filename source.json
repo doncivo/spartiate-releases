@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.7.0",
+          "buildVersion": "0.7.0",
+          "date": "2026-11-08T06:12:54.654Z",
+          "localizedDescription": "- **Nutrition** (nouvel onglet) : Journal du jour (couverture et incertitude sans faux zéro, provenance de chaque aliment, ajout, correction, suppression avec confirmation), recherche locale (récents, tes fiches, table Ciqual ; grammes ou portions), Ajout rapide de macros, tableau de bord (tendance du poids, balance sur 7 jours, dépense, confiance), Stratégie et cibles, et check-in hebdomadaire (accepter, personnaliser ou refuser, relançable ; jamais sous 1 200 kcal sans ta confirmation, jamais sous 800). Sur Aujourd’hui, une carte montre les cibles restantes.\n- Pas encore : scan de code-barres, Open Food Facts, recettes, favoris, photo de repas (IA) — rien n’est envoyé nulle part. Réglages par défaut proposés cette nuit (D-74, D-76), révisables : activité déclarée puis dépense mesurée après 28 jours, jours hauts / bas désactivés.\n- Pas de mise à jour de la base (reste en version 8).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.7.0/Spartiate.ipa",
+          "size": 6157299,
+          "sha256": "beec5ae9ca26e00ce2dad3b55371660c7d9c8a894552b4c478ba22f74882eb8f",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.6.0",
           "buildVersion": "0.6.0",
           "date": "2026-11-08T05:18:37.442Z",
@@ -216,11 +226,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.6.0",
-      "versionDate": "2026-11-08T05:18:37.442Z",
-      "versionDescription": "- Nutrition, en coulisse (I4) : l’app sait maintenant calculer tendance de poids, dépense et cibles (activité déclarée sédentaire / légère / modérée / active, dépense mesurée après 28 jours de données), et garde en mémoire le catalogue d’aliments (table Ciqual de l’Anses, 3 484 aliments, chargée à la demande), le journal des repas et les cibles. **Rien n’est encore affiché** : l’écran Nutrition arrive ensuite. Réglages par défaut proposés cette nuit (D-74), révisables : jours hauts / bas désactivés.\n- Mise à jour de la base (version 8) : quatre tables ajoutées, qui passent d’un appareil à l’autre. **Mets à jour le PC et l’iPhone le même jour** : un appareil resté en 0.5.0 garde de côté ce qui vient de la 0.6.0 (rien n’est perdu), mais refuse une sauvegarde ou un export fait en 0.6.0. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.6.0/Spartiate.ipa",
-      "size": 6048049,
+      "version": "0.7.0",
+      "versionDate": "2026-11-08T06:12:54.654Z",
+      "versionDescription": "- **Nutrition** (nouvel onglet) : Journal du jour (couverture et incertitude sans faux zéro, provenance de chaque aliment, ajout, correction, suppression avec confirmation), recherche locale (récents, tes fiches, table Ciqual ; grammes ou portions), Ajout rapide de macros, tableau de bord (tendance du poids, balance sur 7 jours, dépense, confiance), Stratégie et cibles, et check-in hebdomadaire (accepter, personnaliser ou refuser, relançable ; jamais sous 1 200 kcal sans ta confirmation, jamais sous 800). Sur Aujourd’hui, une carte montre les cibles restantes.\n- Pas encore : scan de code-barres, Open Food Facts, recettes, favoris, photo de repas (IA) — rien n’est envoyé nulle part. Réglages par défaut proposés cette nuit (D-74, D-76), révisables : activité déclarée puis dépense mesurée après 28 jours, jours hauts / bas désactivés.\n- Pas de mise à jour de la base (reste en version 8).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.7.0/Spartiate.ipa",
+      "size": 6157299,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
