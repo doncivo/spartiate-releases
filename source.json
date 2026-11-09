@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.9.1",
+          "buildVersion": "0.9.1",
+          "date": "2026-11-09T03:20:49.920Z",
+          "localizedDescription": "Correctifs du moteur, avant ta première séance réelle. **Pas de mise à jour de la base** (reste en version 9).\n\n- **Fatigue** : après avoir choisi « −2 reps », la séance suivante n’est plus comparée à celle d’avant la décote ; la progression reprend normalement.\n- **Reprise après inactivité** : la phrase annonce l’écart réel (« −2 kg (−10 %) »), jamais un « −1 % » pour un passage de 20 à 18 kg ; une décote de moins d’un demi-cran de matériel donne « Charge maintenue ».\n- **Recalibrage « Facile »** : plus de « +0 kg » ni de 1RM relevé quand la charge ne bouge pas.\n- **Cycle** : le RIR de la semaine, affiché sur la séance proposée, est enregistré avec elle ; le deload du cycle ne s’active que sur une séance issue de la routine du cycle (ni séance libre, ni autre routine).\n- Une décision de progression illisible est ignorée (et journalisée) au lieu de faire échouer l’écran de séance.\n- **Dépense mesurée** : sans pesée récente (moins de 7 jours) aux deux bouts de la fenêtre, elle n’est plus calculée : retour à la formule déclarée et « Pèse-toi pour que la dépense mesurée reprenne ». Une cible acceptée au check-in s’applique même après une cible fixée à la main plus tôt dans la semaine (départage par horloge de synchro). Réglages par défaut proposés (D-82), révisables.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.9.1/Spartiate.ipa",
+          "size": 6916657,
+          "sha256": "b54a81f85520def7c3b3689dc5ea527f733e635fce1de24db79fc0d999bc3f45",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.9.0",
           "buildVersion": "0.9.0",
           "date": "2026-11-09T01:55:29.645Z",
@@ -266,11 +276,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.9.0",
-      "versionDate": "2026-11-09T01:55:29.645Z",
-      "versionDescription": "**Schéma 9 : mets à jour le PC et l’iPhone le même jour, avant toute saisie.** Un appareil resté en 0.8.x garde de côté les recettes et les déclarations reçues (rien n’est perdu, tout revient après sa mise à jour), lit la prise d’une recette mais ne peut ni la modifier ni la copier, seulement la supprimer. PC : bannière de mise à jour dans l’app ; iPhone : SideStore.\n\n- **Journée complète déclarée** (Nutrition → Journal) : pour le jour affiché, « Non déclarée » (l’app déduit : au moins 3 prises sur 8 h), « Complète » ou « Incomplète ». Ta déclaration prime sur la déduction ; le Dashboard, la couverture, la dépense mesurée et le check-in l’utilisent. Un jour sans prise reste « inconnu », jamais zéro, même déclaré complet. Elle passe d’un appareil à l’autre ; en cas de désaccord, la dernière écriture gagne.\n- **Recettes** (Nutrition → Recettes) : un nom, des ingrédients (tes fiches, Ciqual ou Open Food Facts, en grammes), un poids cuit facultatif et un nombre de portions. Un nutriment inconnu dans un ingrédient rend le total de ce nutriment inconnu (« — »), jamais une somme partielle. Ajout au journal par portions ou par grammes ; la prise garde un instantané : modifier la recette ensuite ne change pas le passé. Suppression avec confirmation. Les recettes apparaissent dans la recherche, avec le badge « Recette ». Elles passent d’un appareil à l’autre.\n- Archive d’export : les nouvelles tables y entrent ; une archive plus ancienne s’importe sans rien supprimer de ce côté. Réglages par défaut proposés cette nuit (D-80, D-81), révisables.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.9.0/Spartiate.ipa",
-      "size": 6915154,
+      "version": "0.9.1",
+      "versionDate": "2026-11-09T03:20:49.920Z",
+      "versionDescription": "Correctifs du moteur, avant ta première séance réelle. **Pas de mise à jour de la base** (reste en version 9).\n\n- **Fatigue** : après avoir choisi « −2 reps », la séance suivante n’est plus comparée à celle d’avant la décote ; la progression reprend normalement.\n- **Reprise après inactivité** : la phrase annonce l’écart réel (« −2 kg (−10 %) »), jamais un « −1 % » pour un passage de 20 à 18 kg ; une décote de moins d’un demi-cran de matériel donne « Charge maintenue ».\n- **Recalibrage « Facile »** : plus de « +0 kg » ni de 1RM relevé quand la charge ne bouge pas.\n- **Cycle** : le RIR de la semaine, affiché sur la séance proposée, est enregistré avec elle ; le deload du cycle ne s’active que sur une séance issue de la routine du cycle (ni séance libre, ni autre routine).\n- Une décision de progression illisible est ignorée (et journalisée) au lieu de faire échouer l’écran de séance.\n- **Dépense mesurée** : sans pesée récente (moins de 7 jours) aux deux bouts de la fenêtre, elle n’est plus calculée : retour à la formule déclarée et « Pèse-toi pour que la dépense mesurée reprenne ». Une cible acceptée au check-in s’applique même après une cible fixée à la main plus tôt dans la semaine (départage par horloge de synchro). Réglages par défaut proposés (D-82), révisables.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.9.1/Spartiate.ipa",
+      "size": 6916657,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
