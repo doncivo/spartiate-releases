@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.11.0",
+          "buildVersion": "0.11.0",
+          "date": "2026-11-10T01:27:43.961Z",
+          "localizedDescription": "Les écrans de la récupération. **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Aujourd'hui** : cadrans Recovery, Exertion et Sommeil (valeur, ou « en apprentissage J+x/14 », qualité, contributeurs, « estimation, pas un avis médical »), tuile Pas (iPhone). La carte « Arrive ensuite » disparaît. Même affichage sur le PC, à partir des résumés reçus.\n- **Séance** : si ta Recovery est ≤ 33 au lancement, bandeau « Journée rouge : maintien des charges proposé » (Accepter ou Ignorer ; jamais imposé, la phrase de la proposition le dit). Récupération par muscle visible sur la séance proposée et la séance active.\n- **Sommeil** : heure de coucher proposée (besoin de sommeil moins ton heure de lever habituelle). Notifications du coucher (30 min avant) et du matin (une par jour, texte sans chiffre), **désactivées par défaut**, iPhone seulement : Plus → Apple Santé.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.0/Spartiate.ipa",
+          "size": 6957851,
+          "sha256": "8e20350da322016071fa546eb118d059766b0f1c8b04c950c5fca3e8fa06d791",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.10.0",
           "buildVersion": "0.10.0",
           "date": "2026-11-10T00:09:30.443Z",
@@ -316,11 +326,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.10.0",
-      "versionDate": "2026-11-10T00:09:30.443Z",
-      "versionDescription": "**Schéma 10 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** La mise à jour ajoute des tables (additif) ; aucune donnée saisie n'est modifiée.\n\n- **Récupération (I5-01)** : l'iPhone importe les fichiers de l'app Raccourcis (variabilité cardiaque, fréquence cardiaque au repos, sommeil, pas), calcule la récupération (estimation, pas un avis médical) et publie des résumés quotidiens vers le PC. Plus → Apple Santé → Raccourcis : « Importer maintenant » (choix des fichiers), dernière date par type, lignes lues et refusées par raison, sans aucune valeur. Guide : un seul raccourci « Spartiate — récupération ». Les cadrans arrivent en 0.11.0.\n- **Sauvegarde / export** : les résumés de récupération sont dans l'archive (les échantillons importés non) ; sur le PC, l'import ne les écrit pas.\n- **Restauration** : référentiel des déclencheurs prouvé identique à une base migrée à chaque version.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.10.0/Spartiate.ipa",
-      "size": 6945557,
+      "version": "0.11.0",
+      "versionDate": "2026-11-10T01:27:43.961Z",
+      "versionDescription": "Les écrans de la récupération. **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Aujourd'hui** : cadrans Recovery, Exertion et Sommeil (valeur, ou « en apprentissage J+x/14 », qualité, contributeurs, « estimation, pas un avis médical »), tuile Pas (iPhone). La carte « Arrive ensuite » disparaît. Même affichage sur le PC, à partir des résumés reçus.\n- **Séance** : si ta Recovery est ≤ 33 au lancement, bandeau « Journée rouge : maintien des charges proposé » (Accepter ou Ignorer ; jamais imposé, la phrase de la proposition le dit). Récupération par muscle visible sur la séance proposée et la séance active.\n- **Sommeil** : heure de coucher proposée (besoin de sommeil moins ton heure de lever habituelle). Notifications du coucher (30 min avant) et du matin (une par jour, texte sans chiffre), **désactivées par défaut**, iPhone seulement : Plus → Apple Santé.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.0/Spartiate.ipa",
+      "size": 6957851,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
