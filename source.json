@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.10.0",
+          "buildVersion": "0.10.0",
+          "date": "2026-11-10T00:09:30.443Z",
+          "localizedDescription": "**Schéma 10 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** La mise à jour ajoute des tables (additif) ; aucune donnée saisie n'est modifiée.\n\n- **Récupération (I5-01)** : l'iPhone importe les fichiers de l'app Raccourcis (variabilité cardiaque, fréquence cardiaque au repos, sommeil, pas), calcule la récupération (estimation, pas un avis médical) et publie des résumés quotidiens vers le PC. Plus → Apple Santé → Raccourcis : « Importer maintenant » (choix des fichiers), dernière date par type, lignes lues et refusées par raison, sans aucune valeur. Guide : un seul raccourci « Spartiate — récupération ». Les cadrans arrivent en 0.11.0.\n- **Sauvegarde / export** : les résumés de récupération sont dans l'archive (les échantillons importés non) ; sur le PC, l'import ne les écrit pas.\n- **Restauration** : référentiel des déclencheurs prouvé identique à une base migrée à chaque version.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.10.0/Spartiate.ipa",
+          "size": 6945557,
+          "sha256": "ab0b9d15fbd80d0ff42d3a4011c6ac130f53bc074d9648cc867726216cf614c5",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.9.4",
           "buildVersion": "0.9.4",
           "date": "2026-11-09T21:56:36.141Z",
@@ -306,11 +316,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.9.4",
-      "versionDate": "2026-11-09T21:56:36.141Z",
-      "versionDescription": "**Pas de mise à jour de la base** (reste en version 9) ; aucune donnée saisie n'est modifiée.\n\n- **Charges** : pour les exercices lestés (traction, dips, pompe lestés) la décote de position (2ᵉ exercice −7 %, 3ᵉ −12 %) se calcule sur la charge totale, poids de corps compris, comme le 1RM ; le lest affiché en est déduit. En traction assistée, l'assistance augmente. Sans pesée connue : comme avant.\n- **Restauration** : un fichier de base dont le journal `-wal` voisin annonce une autre taille de page est refusé, avec un message en français. Réduit un risque connu du moteur de base embarqué (D-84, DEP-01) ; le moteur lui-même ne change pas.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.9.4/Spartiate.ipa",
-      "size": 6925715,
+      "version": "0.10.0",
+      "versionDate": "2026-11-10T00:09:30.443Z",
+      "versionDescription": "**Schéma 10 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** La mise à jour ajoute des tables (additif) ; aucune donnée saisie n'est modifiée.\n\n- **Récupération (I5-01)** : l'iPhone importe les fichiers de l'app Raccourcis (variabilité cardiaque, fréquence cardiaque au repos, sommeil, pas), calcule la récupération (estimation, pas un avis médical) et publie des résumés quotidiens vers le PC. Plus → Apple Santé → Raccourcis : « Importer maintenant » (choix des fichiers), dernière date par type, lignes lues et refusées par raison, sans aucune valeur. Guide : un seul raccourci « Spartiate — récupération ». Les cadrans arrivent en 0.11.0.\n- **Sauvegarde / export** : les résumés de récupération sont dans l'archive (les échantillons importés non) ; sur le PC, l'import ne les écrit pas.\n- **Restauration** : référentiel des déclencheurs prouvé identique à une base migrée à chaque version.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.10.0/Spartiate.ipa",
+      "size": 6945557,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
