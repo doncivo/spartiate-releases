@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.11.1",
+          "buildVersion": "0.11.1",
+          "date": "2026-11-10T12:49:32.731Z",
+          "localizedDescription": "Import automatique des fichiers Raccourcis et réglages de la récupération. **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Import automatique** : le raccourci « Spartiate — récupération » écrit désormais dans `iCloud Drive › Spartiate › sante` (**nouveau chemin : change le sous-chemin de l'action « Enregistrer le fichier »**, guide mis à jour). Spartiate lit ces quatre fichiers tout seul à l'ouverture et au retour au premier plan (au plus une fois toutes les 30 minutes) ; « Importer maintenant » relit le dossier ; « Choisir les fichiers » reste en secours. Lecture seule : la synchro ne regarde jamais ce dossier. À constater sur ton iPhone (H-26).\n- **Exertion** : une séance lourde compte enfin. Échelle de la musculation de 20 : 6 t → 3,3 ; 12 t → 5,5 ; 20 t → 7,4 (choix prudent, révisable). La zone cible et le supplément de sommeil jouent à partir d'environ 12 t.\n- **Journée rouge** : accepter le bandeau maintient les charges (aucune hausse, jamais de baisse automatique) ; ignorer garde la proposition normale.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.1/Spartiate.ipa",
+          "size": 6966021,
+          "sha256": "5d7d914a5fa4593a6a274c9cbe03dfb0bc71c8e8aaf1b8f656ed5ea22ae0c105",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.11.0",
           "buildVersion": "0.11.0",
           "date": "2026-11-10T01:27:43.961Z",
@@ -326,11 +336,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.11.0",
-      "versionDate": "2026-11-10T01:27:43.961Z",
-      "versionDescription": "Les écrans de la récupération. **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Aujourd'hui** : cadrans Recovery, Exertion et Sommeil (valeur, ou « en apprentissage J+x/14 », qualité, contributeurs, « estimation, pas un avis médical »), tuile Pas (iPhone). La carte « Arrive ensuite » disparaît. Même affichage sur le PC, à partir des résumés reçus.\n- **Séance** : si ta Recovery est ≤ 33 au lancement, bandeau « Journée rouge : maintien des charges proposé » (Accepter ou Ignorer ; jamais imposé, la phrase de la proposition le dit). Récupération par muscle visible sur la séance proposée et la séance active.\n- **Sommeil** : heure de coucher proposée (besoin de sommeil moins ton heure de lever habituelle). Notifications du coucher (30 min avant) et du matin (une par jour, texte sans chiffre), **désactivées par défaut**, iPhone seulement : Plus → Apple Santé.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.0/Spartiate.ipa",
-      "size": 6957851,
+      "version": "0.11.1",
+      "versionDate": "2026-11-10T12:49:32.731Z",
+      "versionDescription": "Import automatique des fichiers Raccourcis et réglages de la récupération. **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Import automatique** : le raccourci « Spartiate — récupération » écrit désormais dans `iCloud Drive › Spartiate › sante` (**nouveau chemin : change le sous-chemin de l'action « Enregistrer le fichier »**, guide mis à jour). Spartiate lit ces quatre fichiers tout seul à l'ouverture et au retour au premier plan (au plus une fois toutes les 30 minutes) ; « Importer maintenant » relit le dossier ; « Choisir les fichiers » reste en secours. Lecture seule : la synchro ne regarde jamais ce dossier. À constater sur ton iPhone (H-26).\n- **Exertion** : une séance lourde compte enfin. Échelle de la musculation de 20 : 6 t → 3,3 ; 12 t → 5,5 ; 20 t → 7,4 (choix prudent, révisable). La zone cible et le supplément de sommeil jouent à partir d'environ 12 t.\n- **Journée rouge** : accepter le bandeau maintient les charges (aucune hausse, jamais de baisse automatique) ; ignorer garde la proposition normale.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.1/Spartiate.ipa",
+      "size": 6966021,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
