@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.11.3",
+          "buildVersion": "0.11.3",
+          "date": "2026-11-11T17:09:48.291Z",
+          "localizedDescription": "Correctif de la lecture automatique du dossier sante (constat du 11 nov. sur l'iPhone). **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Dossier sante reconnu** : un dossier iCloud encore « dans le nuage » (présenté comme un fichier) est maintenant téléchargé puis lu ; les noms à espace ou caractère invisible sont acceptés. Un dossier pas encore téléchargé est dit « à télécharger », jamais « absent ». Cause exacte non prouvée sans l'appareil (docs/I5-05.md).\n- **Diagnostic** : Plus › Logs décrit chaque entrée du dossier lié par des codes (dossier, nuage, égal à devices, égal à sante), sans aucun nom ; la taille d'un fichier lu par « Choisir les fichiers » est la vraie.\n- **Journal exporté complet** : sur l'iPhone, l'export de Logs contient les événements de l'app et ceux de la synchro (ils étaient écrits dans deux dossiers différents).\n- **Sommeil** : une nuit est le plus long épisode (segments séparés de moins de 60 min) qui se termine le jour du réveil ; les siestes ne comptent plus comme des nuits (dette, baseline, régularité, heure de lever).\n- **Phrase d'état** : après un import réussi, « Non trouvé à la lecture du dossier de HH:MM » remplace « Fichier absent » au-dessus des comptes.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.3/Spartiate.ipa",
+          "size": 6969527,
+          "sha256": "b77b0bf48f17ac0891766ea7af9f6235a929f56ca3f2f792c8d2ac52afede79f",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.11.2",
           "buildVersion": "0.11.2",
           "date": "2026-11-10T18:32:58.568Z",
@@ -346,11 +356,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.11.2",
-      "versionDate": "2026-11-10T18:32:58.568Z",
-      "versionDescription": "Correctif de l'import Raccourcis (constat du 10 nov. sur l'iPhone). **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Plus jamais de silence** : chaque appui sur « Importer maintenant » ou « Choisir les fichiers » affiche une phrase près du bouton (fichiers lus et lignes ajoutées, aucun fichier trouvé dans iCloud Drive › Spartiate › sante, dossier non lié, lecture déjà faite…) et laisse une trace dans Plus › Logs. « Importer maintenant » n'est jamais freiné par l'intervalle de 30 minutes.\n- **Diagnostic du dossier sante** : Plus › Logs note, sans aucune valeur, si le dossier lié est atteint, si `sante` et `devices` y sont, et pour chaque fichier son état (absent, présent, à télécharger, illisible) et sa taille. La lecture retrouve aussi `sante` et les quatre fichiers sous une autre casse ou un accent (« Santé », « HRV.csv »).\n- **Valeurs à nombreuses décimales** : le raccourci écrit des valeurs comme 33,7171717171717 ; elles sont lues (jusqu'à 15 décimales, point ou virgule). HRV et FC au repos sont arrondies au dixième, les pesées au centième.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.2/Spartiate.ipa",
-      "size": 6965681,
+      "version": "0.11.3",
+      "versionDate": "2026-11-11T17:09:48.291Z",
+      "versionDescription": "Correctif de la lecture automatique du dossier sante (constat du 11 nov. sur l'iPhone). **Pas de mise à jour de la base** (reste en version 10) ; aucune donnée saisie n'est modifiée.\n\n- **Dossier sante reconnu** : un dossier iCloud encore « dans le nuage » (présenté comme un fichier) est maintenant téléchargé puis lu ; les noms à espace ou caractère invisible sont acceptés. Un dossier pas encore téléchargé est dit « à télécharger », jamais « absent ». Cause exacte non prouvée sans l'appareil (docs/I5-05.md).\n- **Diagnostic** : Plus › Logs décrit chaque entrée du dossier lié par des codes (dossier, nuage, égal à devices, égal à sante), sans aucun nom ; la taille d'un fichier lu par « Choisir les fichiers » est la vraie.\n- **Journal exporté complet** : sur l'iPhone, l'export de Logs contient les événements de l'app et ceux de la synchro (ils étaient écrits dans deux dossiers différents).\n- **Sommeil** : une nuit est le plus long épisode (segments séparés de moins de 60 min) qui se termine le jour du réveil ; les siestes ne comptent plus comme des nuits (dette, baseline, régularité, heure de lever).\n- **Phrase d'état** : après un import réussi, « Non trouvé à la lecture du dossier de HH:MM » remplace « Fichier absent » au-dessus des comptes.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.3/Spartiate.ipa",
+      "size": 6969527,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
