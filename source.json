@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.12.0",
+          "buildVersion": "0.12.0",
+          "date": "2026-11-12T10:31:51.955Z",
+          "localizedDescription": "**Schéma 11 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** La mise à jour ajoute une table (additif) ; aucune donnée saisie n'est modifiée.\n\n- **Journal de facteurs (I6-01)** : sur Aujourd'hui (PC et iPhone), cases à cocher le matin pour la journée de la veille (alcool, caféine après 16 h, repas tardif, stress, courbatures, maladie, voyage, entraînement tardif) ou « Rien de particulier » en un tap ; modifiable dans la journée, synchronisé entre les deux appareils, jamais envoyé à un tiers. Progrès › Récupération : après 30 jours renseignés et au moins 5 jours avec un facteur, l'écart moyen de Recovery du lendemain avec et sans ce facteur, dit comme une association observée, pas une cause.\n- **Valeurs inhabituelles** : deux nuits de suite avec une HRV nettement sous ta base (au moins 2 σ) ou une fréquence cardiaque au repos nettement au-dessus : carte « repos conseillé » sur Aujourd'hui. Estimation, pas un avis médical ; aucune notification.\n- **Sauvegarde / export / synchro** : le journal est dans l'archive, dans la restauration et dans la synchro (les deux appareils l'écrivent).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.12.0/Spartiate.ipa",
+          "size": 6977405,
+          "sha256": "9ec4cc56d0d1524a7a64fe9638d84b383c5b0d489edacce8e6d977474e0cbc3c",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.11.5",
           "buildVersion": "0.11.5",
           "date": "2026-11-12T09:55:29.538Z",
@@ -376,11 +386,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.11.5",
-      "versionDate": "2026-11-12T09:55:29.538Z",
-      "versionDescription": "Correctifs (FIX-0115). **Pas de mise à jour de la base** (reste en version 10).\n\n- **Onglets défilants** (Entraînement, Nutrition) : un fondu sur le bord signale les onglets cachés, à droite à l’ouverture puis à gauche une fois défilé ; l’onglet actif reste entièrement visible.\n- **Plus › Apple Santé** : la ligne dit « via Raccourcis · dernier import HH:MM » au lieu de « non disponible ».\n- **Sommeil** : événement de diagnostic dans le journal (compteurs de nuits retenues et écartées par raison ; aucun chiffre de santé).\n- Test d’onglets de la CI rendu fiable (il mesurait un onglet pas encore affiché).",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.5/Spartiate.ipa",
-      "size": 6969290,
+      "version": "0.12.0",
+      "versionDate": "2026-11-12T10:31:51.955Z",
+      "versionDescription": "**Schéma 11 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** La mise à jour ajoute une table (additif) ; aucune donnée saisie n'est modifiée.\n\n- **Journal de facteurs (I6-01)** : sur Aujourd'hui (PC et iPhone), cases à cocher le matin pour la journée de la veille (alcool, caféine après 16 h, repas tardif, stress, courbatures, maladie, voyage, entraînement tardif) ou « Rien de particulier » en un tap ; modifiable dans la journée, synchronisé entre les deux appareils, jamais envoyé à un tiers. Progrès › Récupération : après 30 jours renseignés et au moins 5 jours avec un facteur, l'écart moyen de Recovery du lendemain avec et sans ce facteur, dit comme une association observée, pas une cause.\n- **Valeurs inhabituelles** : deux nuits de suite avec une HRV nettement sous ta base (au moins 2 σ) ou une fréquence cardiaque au repos nettement au-dessus : carte « repos conseillé » sur Aujourd'hui. Estimation, pas un avis médical ; aucune notification.\n- **Sauvegarde / export / synchro** : le journal est dans l'archive, dans la restauration et dans la synchro (les deux appareils l'écrivent).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.12.0/Spartiate.ipa",
+      "size": 6977405,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
