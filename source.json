@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.17.2",
+          "buildVersion": "0.17.2",
+          "date": "2026-11-12T22:07:04.508Z",
+          "localizedDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour, pour que le PC affiche les valeurs inhabituelles comme l'iPhone.\n\n- **Dette de sommeil plus juste** (ta décision) : une nuit courte ajoute ce qui manque pour 7 h 30 ; une nuit longue rembourse maintenant jusqu'à 1 h de dette. La dette reste entre 0 et 3 h, sur les 7 nuits avant aujourd'hui. Avec des nuits irrégulières autour de 7 h 30, ton besoin affiché redescend vers 7 h 30 à 8 h 45 au lieu de 10 h 30.\n- **Nuit et réveil** : seuls les moments où tu dors comptent pour délimiter ta nuit ; un long bloc « Au lit » ne relie plus ta nuit à une sieste et ne repousse plus l'heure de ton réveil. Tous les stades de l'Apple Watch (Principal ou Essentiel, Profond, Paradoxal, Endormi non précisé) comptent comme du sommeil.\n- **Recalcul automatique** : les résumés des 30 derniers jours sont recalculés une fois avec ces règles, à l'ouverture suivante, même si le dossier `sante` n'est pas joignable ou si les fichiers sont absents. S'il est interrompu, il reprend à l'ouverture d'après.\n- **Valeurs inhabituelles** : la carte « repos conseillé » ne s'affiche que pour une HRV ou une FC au repos à plus de 2 σ de ta base (exactement 2 σ ne suffit plus), jugée sur la valeur exacte et non arrondie. Le PC affiche la même décision que l'iPhone.\n- **Raccourci à l'ouverture de Spartiate** : si tu lances ton raccourci avec l'automatisation « Lorsque Spartiate est ouverte », Spartiate relit le dossier `sante` une seule fois, environ 45 secondes après l'ouverture, quand la première lecture n'a rien apporté de nouveau. Rien si tu quittes l'app avant. Le guide (`docs/guide-raccourcis-sante.md`, B.3 bis) explique comment créer cette automatisation.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.2/Spartiate.ipa",
+          "size": 7002848,
+          "sha256": "709b54b174c7b078c56bbbfcd93494ffa0da6e58a8fdba39a2218c8e27a17553",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.17.1",
           "buildVersion": "0.17.1",
           "date": "2026-11-12T21:35:37.708Z",
@@ -446,11 +456,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.17.1",
-      "versionDate": "2026-11-12T21:35:37.708Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour (la règle des photos doit être la même des deux côtés).\n\n- **Import d'une ancienne archive** : une archive faite avant les circuits (0.13.0 ou plus ancienne) n'efface plus tes groupes de circuit ni leurs repos, en « Fusionner » comme en « Remplacer ». Une valeur vraiment vidée dans une archive récente reste appliquée.\n- **Photos protégées dans le sélecteur d'apps** : sur iPhone, l'écran Corps cache désormais ses photos dans l'aperçu du sélecteur d'apps, même si le verrouillage de l'app est désactivé ; si la protection ne peut pas se poser, l'écran te le dit. À constater sur ton iPhone (H-32).\n- **Supprimer une photo** : seulement sur l'appareil qui a la photo, après confirmation. Sur le PC, qui n'a que la fiche, tu peux seulement « Masquer sur cet appareil » (rien ne change ailleurs) et tout réafficher plus tard.\n- **Une suppression venue d'ailleurs n'efface plus ta photo** : si la fiche est supprimée sur l'autre appareil ou par un import, la photo reste sur ton iPhone, marquée « Supprimée sur un autre appareil ou par un import », jusqu'à ce que tu la supprimes toi-même.\n- **Photo et fiche enregistrées ensemble** : un échec pendant l'ajout ou la suppression ne laisse plus une fiche sans image ni une image perdue.\n- **« Revoir mes réglages »** part maintenant de ton profil et de ta dernière pesée actuels, plus d'un ancien brouillon. Terminer sans rien changer n'écrit rien et ne crée aucune pesée ; si tu remplaces une valeur déjà enregistrée, Spartiate te montre l'avant et l'après et te laisse refuser chaque remplacement.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.1/Spartiate.ipa",
-      "size": 7002539,
+      "version": "0.17.2",
+      "versionDate": "2026-11-12T22:07:04.508Z",
+      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour, pour que le PC affiche les valeurs inhabituelles comme l'iPhone.\n\n- **Dette de sommeil plus juste** (ta décision) : une nuit courte ajoute ce qui manque pour 7 h 30 ; une nuit longue rembourse maintenant jusqu'à 1 h de dette. La dette reste entre 0 et 3 h, sur les 7 nuits avant aujourd'hui. Avec des nuits irrégulières autour de 7 h 30, ton besoin affiché redescend vers 7 h 30 à 8 h 45 au lieu de 10 h 30.\n- **Nuit et réveil** : seuls les moments où tu dors comptent pour délimiter ta nuit ; un long bloc « Au lit » ne relie plus ta nuit à une sieste et ne repousse plus l'heure de ton réveil. Tous les stades de l'Apple Watch (Principal ou Essentiel, Profond, Paradoxal, Endormi non précisé) comptent comme du sommeil.\n- **Recalcul automatique** : les résumés des 30 derniers jours sont recalculés une fois avec ces règles, à l'ouverture suivante, même si le dossier `sante` n'est pas joignable ou si les fichiers sont absents. S'il est interrompu, il reprend à l'ouverture d'après.\n- **Valeurs inhabituelles** : la carte « repos conseillé » ne s'affiche que pour une HRV ou une FC au repos à plus de 2 σ de ta base (exactement 2 σ ne suffit plus), jugée sur la valeur exacte et non arrondie. Le PC affiche la même décision que l'iPhone.\n- **Raccourci à l'ouverture de Spartiate** : si tu lances ton raccourci avec l'automatisation « Lorsque Spartiate est ouverte », Spartiate relit le dossier `sante` une seule fois, environ 45 secondes après l'ouverture, quand la première lecture n'a rien apporté de nouveau. Rien si tu quittes l'app avant. Le guide (`docs/guide-raccourcis-sante.md`, B.3 bis) explique comment créer cette automatisation.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.2/Spartiate.ipa",
+      "size": 7002848,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
