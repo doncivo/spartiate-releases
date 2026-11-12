@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.17.3",
+          "buildVersion": "0.17.3",
+          "date": "2026-11-12T23:04:44.482Z",
+          "localizedDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour, pour voir le même nom de salle des deux côtés.\n\n- **Une seule salle : « Salle complète »** (ta décision) : le profil de ta salle devient un profil générique avec tout le matériel d'une grande salle (machines Hammer Strength et Technogym, poulies, cages, Smith, banc décliné, pupitre, haltères de 2 à 58 kg, kettlebells de 4 à 20 kg). C'est le même profil, renommé : tes séances, ton historique, tes routines et ton profil actif ne bougent pas. Le préréglage « Salle commerciale » y est réuni. Tes copies personnelles gardent leur nom et leur contenu.\n- **Fibres Renpho** : quand tu saisis un repas un jour où Renpho avait mis son total, ou quand tu supprimes ce total, les fibres de ce jour partent avec lui, tout de suite. Une correction des fibres à 0 g dans Santé est appliquée ; un fichier de fibres absent ne change rien.\n- **Export complet** : le fichier `measurement.csv` dit maintenant l'unité de chaque ligne (cm, pct pour la masse grasse, kg, g pour les fibres) ; les valeurs ne changent pas.\n- **Premier lancement** : l'assistant de départ ne s'ouvre plus tout seul si ta base contient déjà de la récupération, des facteurs, des mensurations ou des photos.\n- **Petites finitions** : le fondu au bord des onglets défilants suit aussi un changement de taille de texte ; dans Plus, la ligne Apple Santé « dernier import » se met à jour dès qu'un import se termine.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.3/Spartiate.ipa",
+          "size": 7003792,
+          "sha256": "52c48830df9628bbedf9df58536afa97875f5469826dc2ffcc2cec130d74b49d",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.17.2",
           "buildVersion": "0.17.2",
           "date": "2026-11-12T22:07:04.508Z",
@@ -456,11 +466,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.17.2",
-      "versionDate": "2026-11-12T22:07:04.508Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour, pour que le PC affiche les valeurs inhabituelles comme l'iPhone.\n\n- **Dette de sommeil plus juste** (ta décision) : une nuit courte ajoute ce qui manque pour 7 h 30 ; une nuit longue rembourse maintenant jusqu'à 1 h de dette. La dette reste entre 0 et 3 h, sur les 7 nuits avant aujourd'hui. Avec des nuits irrégulières autour de 7 h 30, ton besoin affiché redescend vers 7 h 30 à 8 h 45 au lieu de 10 h 30.\n- **Nuit et réveil** : seuls les moments où tu dors comptent pour délimiter ta nuit ; un long bloc « Au lit » ne relie plus ta nuit à une sieste et ne repousse plus l'heure de ton réveil. Tous les stades de l'Apple Watch (Principal ou Essentiel, Profond, Paradoxal, Endormi non précisé) comptent comme du sommeil.\n- **Recalcul automatique** : les résumés des 30 derniers jours sont recalculés une fois avec ces règles, à l'ouverture suivante, même si le dossier `sante` n'est pas joignable ou si les fichiers sont absents. S'il est interrompu, il reprend à l'ouverture d'après.\n- **Valeurs inhabituelles** : la carte « repos conseillé » ne s'affiche que pour une HRV ou une FC au repos à plus de 2 σ de ta base (exactement 2 σ ne suffit plus), jugée sur la valeur exacte et non arrondie. Le PC affiche la même décision que l'iPhone.\n- **Raccourci à l'ouverture de Spartiate** : si tu lances ton raccourci avec l'automatisation « Lorsque Spartiate est ouverte », Spartiate relit le dossier `sante` une seule fois, environ 45 secondes après l'ouverture, quand la première lecture n'a rien apporté de nouveau. Rien si tu quittes l'app avant. Le guide (`docs/guide-raccourcis-sante.md`, B.3 bis) explique comment créer cette automatisation.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.2/Spartiate.ipa",
-      "size": 7002848,
+      "version": "0.17.3",
+      "versionDate": "2026-11-12T23:04:44.482Z",
+      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour, pour voir le même nom de salle des deux côtés.\n\n- **Une seule salle : « Salle complète »** (ta décision) : le profil de ta salle devient un profil générique avec tout le matériel d'une grande salle (machines Hammer Strength et Technogym, poulies, cages, Smith, banc décliné, pupitre, haltères de 2 à 58 kg, kettlebells de 4 à 20 kg). C'est le même profil, renommé : tes séances, ton historique, tes routines et ton profil actif ne bougent pas. Le préréglage « Salle commerciale » y est réuni. Tes copies personnelles gardent leur nom et leur contenu.\n- **Fibres Renpho** : quand tu saisis un repas un jour où Renpho avait mis son total, ou quand tu supprimes ce total, les fibres de ce jour partent avec lui, tout de suite. Une correction des fibres à 0 g dans Santé est appliquée ; un fichier de fibres absent ne change rien.\n- **Export complet** : le fichier `measurement.csv` dit maintenant l'unité de chaque ligne (cm, pct pour la masse grasse, kg, g pour les fibres) ; les valeurs ne changent pas.\n- **Premier lancement** : l'assistant de départ ne s'ouvre plus tout seul si ta base contient déjà de la récupération, des facteurs, des mensurations ou des photos.\n- **Petites finitions** : le fondu au bord des onglets défilants suit aussi un changement de taille de texte ; dans Plus, la ligne Apple Santé « dernier import » se met à jour dès qu'un import se termine.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.3/Spartiate.ipa",
+      "size": 7003792,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
