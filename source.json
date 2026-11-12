@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.11.5",
+          "buildVersion": "0.11.5",
+          "date": "2026-11-12T09:55:29.538Z",
+          "localizedDescription": "Correctifs (FIX-0115). **Pas de mise à jour de la base** (reste en version 10).\n\n- **Onglets défilants** (Entraînement, Nutrition) : un fondu sur le bord signale les onglets cachés, à droite à l’ouverture puis à gauche une fois défilé ; l’onglet actif reste entièrement visible.\n- **Plus › Apple Santé** : la ligne dit « via Raccourcis · dernier import HH:MM » au lieu de « non disponible ».\n- **Sommeil** : événement de diagnostic dans le journal (compteurs de nuits retenues et écartées par raison ; aucun chiffre de santé).\n- Test d’onglets de la CI rendu fiable (il mesurait un onglet pas encore affiché).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.5/Spartiate.ipa",
+          "size": 6969290,
+          "sha256": "e6e1be6e78dfff0f6482d22f50a7d45ff5532872b63575566a4a93ba46563548",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.11.4",
           "buildVersion": "0.11.4",
           "date": "2026-11-11T18:38:38.358Z",
@@ -366,11 +376,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.11.4",
-      "versionDate": "2026-11-11T18:38:38.358Z",
-      "versionDescription": "Correctif du sommeil et du dossier sante (constat du 11 nov.). **Pas de mise à jour de la base** (reste en version 10).\n\n- **Sommeil** : les blocs « Au lit » de l’après-midi ne comptent plus ni comme du sommeil ni comme des nuits ; la dette et le besoin ne sont plus gonflés. Les résumés des 30 derniers jours sont recalculés une fois, à l’import suivant.\n- **Dossier sante** : un dossier dont le nom a une espace ou un caractère invisible est lu ; si le nom est refusé, l’écran dit « illisible (nom du dossier) » et le journal en donne la raison en code.\n- **Guide** : taper « sante » à la main, sans les suggestions du clavier.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.4/Spartiate.ipa",
-      "size": 6969966,
+      "version": "0.11.5",
+      "versionDate": "2026-11-12T09:55:29.538Z",
+      "versionDescription": "Correctifs (FIX-0115). **Pas de mise à jour de la base** (reste en version 10).\n\n- **Onglets défilants** (Entraînement, Nutrition) : un fondu sur le bord signale les onglets cachés, à droite à l’ouverture puis à gauche une fois défilé ; l’onglet actif reste entièrement visible.\n- **Plus › Apple Santé** : la ligne dit « via Raccourcis · dernier import HH:MM » au lieu de « non disponible ».\n- **Sommeil** : événement de diagnostic dans le journal (compteurs de nuits retenues et écartées par raison ; aucun chiffre de santé).\n- Test d’onglets de la CI rendu fiable (il mesurait un onglet pas encore affiché).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.11.5/Spartiate.ipa",
+      "size": 6969290,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
