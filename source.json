@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.18.0",
+          "buildVersion": "0.18.0",
+          "date": "2026-11-12T23:50:19.164Z",
+          "localizedDescription": "**Schéma 14 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0014 : les lignes de routine reçoivent leur groupe de circuit. Un appareil resté en 0.17 garde les groupes de routine reçus sans les afficher et les retrouve après sa mise à jour.\n\n- **Superset, triset ou circuit dans tes routines** (ta décision) : dans l'éditeur de routine, « Grouper en circuit » relie des exercices d'un même jour (deux = superset, trois = triset, quatre ou plus = circuit), avec le nombre de tours, le repos entre exercices et le repos de fin de tour. Le groupe est enregistré avec la routine et tu le retrouves dans chaque séance démarrée depuis ce jour : séries alternées, repos du groupe. « Défaire le groupe » ou retirer un exercice d'un superset le dissout. Les programmes de départ et les séances proposées restent sans groupe tant que tu n'en crées pas.\n- **Déroulé série par série** (ta décision) : dans Journal, le détail d'une séance passée propose « Voir le déroulé série par série ». Tu y revois chaque série dans l'ordre où tu l'as validée, avec l'heure, la charge, les répétitions et le repos réellement pris face à ce qui était prévu, et l'écart écrit en toutes lettres (« conforme », « 2,5 kg de plus », « plus long de 1 min 30 s »). Le repos est mesuré d'une validation à la suivante, exécution de la série comprise. Si l'heure d'une validation manque, le repos est dit « inconnu », jamais 0. Rien n'est créé ni modifié.\n- **« Refaire cette séance »** : le bouton qui crée une nouvelle séance à partir d'une séance passée (même exercices, mêmes groupes, tes charges et répétitions en cibles) s'appelait « Rejouer cette séance ». Il fonctionne comme avant.\n- **Export** : l'export et l'export complet (`routine_exercise.csv`) portent les groupes de tes routines. Une archive faite avant cette version s'importe toujours et ne retire jamais un groupe existant.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.0/Spartiate.ipa",
+          "size": 7010498,
+          "sha256": "893b62e16975aa3e63123f4c0ec98e2088dc9ec2533b9c1148ad3168180637ad",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.17.3",
           "buildVersion": "0.17.3",
           "date": "2026-11-12T23:04:44.482Z",
@@ -466,11 +476,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.17.3",
-      "versionDate": "2026-11-12T23:04:44.482Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour, pour voir le même nom de salle des deux côtés.\n\n- **Une seule salle : « Salle complète »** (ta décision) : le profil de ta salle devient un profil générique avec tout le matériel d'une grande salle (machines Hammer Strength et Technogym, poulies, cages, Smith, banc décliné, pupitre, haltères de 2 à 58 kg, kettlebells de 4 à 20 kg). C'est le même profil, renommé : tes séances, ton historique, tes routines et ton profil actif ne bougent pas. Le préréglage « Salle commerciale » y est réuni. Tes copies personnelles gardent leur nom et leur contenu.\n- **Fibres Renpho** : quand tu saisis un repas un jour où Renpho avait mis son total, ou quand tu supprimes ce total, les fibres de ce jour partent avec lui, tout de suite. Une correction des fibres à 0 g dans Santé est appliquée ; un fichier de fibres absent ne change rien.\n- **Export complet** : le fichier `measurement.csv` dit maintenant l'unité de chaque ligne (cm, pct pour la masse grasse, kg, g pour les fibres) ; les valeurs ne changent pas.\n- **Premier lancement** : l'assistant de départ ne s'ouvre plus tout seul si ta base contient déjà de la récupération, des facteurs, des mensurations ou des photos.\n- **Petites finitions** : le fondu au bord des onglets défilants suit aussi un changement de taille de texte ; dans Plus, la ligne Apple Santé « dernier import » se met à jour dès qu'un import se termine.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.3/Spartiate.ipa",
-      "size": 7003792,
+      "version": "0.18.0",
+      "versionDate": "2026-11-12T23:50:19.164Z",
+      "versionDescription": "**Schéma 14 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0014 : les lignes de routine reçoivent leur groupe de circuit. Un appareil resté en 0.17 garde les groupes de routine reçus sans les afficher et les retrouve après sa mise à jour.\n\n- **Superset, triset ou circuit dans tes routines** (ta décision) : dans l'éditeur de routine, « Grouper en circuit » relie des exercices d'un même jour (deux = superset, trois = triset, quatre ou plus = circuit), avec le nombre de tours, le repos entre exercices et le repos de fin de tour. Le groupe est enregistré avec la routine et tu le retrouves dans chaque séance démarrée depuis ce jour : séries alternées, repos du groupe. « Défaire le groupe » ou retirer un exercice d'un superset le dissout. Les programmes de départ et les séances proposées restent sans groupe tant que tu n'en crées pas.\n- **Déroulé série par série** (ta décision) : dans Journal, le détail d'une séance passée propose « Voir le déroulé série par série ». Tu y revois chaque série dans l'ordre où tu l'as validée, avec l'heure, la charge, les répétitions et le repos réellement pris face à ce qui était prévu, et l'écart écrit en toutes lettres (« conforme », « 2,5 kg de plus », « plus long de 1 min 30 s »). Le repos est mesuré d'une validation à la suivante, exécution de la série comprise. Si l'heure d'une validation manque, le repos est dit « inconnu », jamais 0. Rien n'est créé ni modifié.\n- **« Refaire cette séance »** : le bouton qui crée une nouvelle séance à partir d'une séance passée (même exercices, mêmes groupes, tes charges et répétitions en cibles) s'appelait « Rejouer cette séance ». Il fonctionne comme avant.\n- **Export** : l'export et l'export complet (`routine_exercise.csv`) portent les groupes de tes routines. Une archive faite avant cette version s'importe toujours et ne retire jamais un groupe existant.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.0/Spartiate.ipa",
+      "size": 7010498,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
