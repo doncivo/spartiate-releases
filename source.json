@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.16.0",
+          "buildVersion": "0.16.0",
+          "date": "2026-11-12T16:15:13.695Z",
+          "localizedDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour (un PC resté en 0.15.0 ne sait pas réimporter une archive contenant les nouvelles mesures).\n\n- **Import des données de ta balance Renpho (I6-04)**, via Santé et l'app Raccourcis : dix fichiers de plus dans `iCloud Drive › Spartiate › sante` (poids, masse grasse, masse maigre, tour de taille, taille, énergie, protéines, glucides, lipides, fibres), lus par Spartiate comme ceux de la récupération (à l'ouverture, au retour au premier plan, « Importer maintenant »). Le guide `docs/guide-raccourcis-sante.md` (partie C) décrit les dix blocs du raccourci. Plus › Apple Santé › « Corps et nutrition depuis Raccourcis » dit, par fichier, les lignes lues, ajoutées, mises à jour et refusées (avec la raison), jamais une valeur.\n- **Poids** : une pesée Santé par jour (la plus récente) ; ta saisie manuelle n'est jamais remplacée. **Composition et mensurations** : masse grasse, masse maigre, tour de taille et taille apparaissent dans Progrès › Corps (« Importé de Santé (Renpho) », lecture seule) ; tes mensurations saisies ne sont jamais touchées.\n- **Nutrition « les deux selon les jours »** : si tu as saisi un repas dans le journal pour un jour, ton journal fait foi et rien n'est importé pour ce jour. Sinon, une seule ligne « Renpho — total du jour » porte les totaux, mise à jour à chaque import ; elle est remplacée dès que tu saisis un repas ce jour-là. Ce qui est supprimé par toi ne revient pas.\n- **Valeurs hors limites** (poids, masse grasse, taille, tour de taille, énergie, macros) : rejetées et comptées. Rien n'est envoyé à un service tiers ; aucune valeur dans les journaux techniques.\n- À constater sur iPhone : les types Santé et les unités exposés par Raccourcis (H-28 à H-31).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.16.0/Spartiate.ipa",
+          "size": 7012948,
+          "sha256": "c8c18a2164a69f2d314cd08a996f9984f6ed6291847a5a3d2df39fe972b05536",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.15.0",
           "buildVersion": "0.15.0",
           "date": "2026-11-12T14:59:18.871Z",
@@ -416,11 +426,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.15.0",
-      "versionDate": "2026-11-12T14:59:18.871Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment.\n\n- **Onboarding en 8 écrans (I3-07)**, sur PC et iPhone : Toi (sexe, année de naissance, taille, poids, niveau d'activité), Objectif (muscle, force, recomposition, perte de gras, maintien, et rythme en % du poids par semaine, de −1 % à +0,5 %), Expérience, Disponibilité (séances par semaine, durée, jours), Matériel, Priorités (silhouettes avant et arrière : 2 muscles à prioriser, 4 à éviter, mouvements douloureux), Split proposé selon ta fréquence, Résultat (première séance et cibles du jour). Chaque question est ignorable, le brouillon est enregistré à chaque changement.\n- **Dépense de départ** : estimation Mifflin-St Jeor selon ton sexe, ton âge, ta taille, ton poids et ton niveau d'activité déclaré, présentée comme un point de départ recalculé après 2 semaines de données ; tu peux la modifier ou rétablir l'estimation.\n- **Quand il s'ouvre** : au premier lancement sur une base vide seulement. Une installation qui contient déjà des données ne le voit jamais tout seul ; Plus › Profil et poids › « Revoir mes réglages » le rouvre, prérempli.\n- **Ta routine n'est jamais remplacée** : le programme proposé s'ajoute comme une nouvelle routine, ou pas du tout si tu l'écartes.\n- **Pas encore branchés** : les muscles prioritaires ou évités, les mouvements douloureux et la variété sont enregistrés mais ne pilotent pas encore la séance proposée (ticket Entraînement à venir).\n- Retiré : l'ancien assistant de bienvenue hérité de CircleTasks (écrans, textes, réglage d'étape).",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.15.0/Spartiate.ipa",
-      "size": 7007168,
+      "version": "0.16.0",
+      "versionDate": "2026-11-12T16:15:13.695Z",
+      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour (un PC resté en 0.15.0 ne sait pas réimporter une archive contenant les nouvelles mesures).\n\n- **Import des données de ta balance Renpho (I6-04)**, via Santé et l'app Raccourcis : dix fichiers de plus dans `iCloud Drive › Spartiate › sante` (poids, masse grasse, masse maigre, tour de taille, taille, énergie, protéines, glucides, lipides, fibres), lus par Spartiate comme ceux de la récupération (à l'ouverture, au retour au premier plan, « Importer maintenant »). Le guide `docs/guide-raccourcis-sante.md` (partie C) décrit les dix blocs du raccourci. Plus › Apple Santé › « Corps et nutrition depuis Raccourcis » dit, par fichier, les lignes lues, ajoutées, mises à jour et refusées (avec la raison), jamais une valeur.\n- **Poids** : une pesée Santé par jour (la plus récente) ; ta saisie manuelle n'est jamais remplacée. **Composition et mensurations** : masse grasse, masse maigre, tour de taille et taille apparaissent dans Progrès › Corps (« Importé de Santé (Renpho) », lecture seule) ; tes mensurations saisies ne sont jamais touchées.\n- **Nutrition « les deux selon les jours »** : si tu as saisi un repas dans le journal pour un jour, ton journal fait foi et rien n'est importé pour ce jour. Sinon, une seule ligne « Renpho — total du jour » porte les totaux, mise à jour à chaque import ; elle est remplacée dès que tu saisis un repas ce jour-là. Ce qui est supprimé par toi ne revient pas.\n- **Valeurs hors limites** (poids, masse grasse, taille, tour de taille, énergie, macros) : rejetées et comptées. Rien n'est envoyé à un service tiers ; aucune valeur dans les journaux techniques.\n- À constater sur iPhone : les types Santé et les unités exposés par Raccourcis (H-28 à H-31).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.16.0/Spartiate.ipa",
+      "size": 7012948,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
