@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.17.1",
+          "buildVersion": "0.17.1",
+          "date": "2026-11-12T21:35:37.708Z",
+          "localizedDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour (la règle des photos doit être la même des deux côtés).\n\n- **Import d'une ancienne archive** : une archive faite avant les circuits (0.13.0 ou plus ancienne) n'efface plus tes groupes de circuit ni leurs repos, en « Fusionner » comme en « Remplacer ». Une valeur vraiment vidée dans une archive récente reste appliquée.\n- **Photos protégées dans le sélecteur d'apps** : sur iPhone, l'écran Corps cache désormais ses photos dans l'aperçu du sélecteur d'apps, même si le verrouillage de l'app est désactivé ; si la protection ne peut pas se poser, l'écran te le dit. À constater sur ton iPhone (H-32).\n- **Supprimer une photo** : seulement sur l'appareil qui a la photo, après confirmation. Sur le PC, qui n'a que la fiche, tu peux seulement « Masquer sur cet appareil » (rien ne change ailleurs) et tout réafficher plus tard.\n- **Une suppression venue d'ailleurs n'efface plus ta photo** : si la fiche est supprimée sur l'autre appareil ou par un import, la photo reste sur ton iPhone, marquée « Supprimée sur un autre appareil ou par un import », jusqu'à ce que tu la supprimes toi-même.\n- **Photo et fiche enregistrées ensemble** : un échec pendant l'ajout ou la suppression ne laisse plus une fiche sans image ni une image perdue.\n- **« Revoir mes réglages »** part maintenant de ton profil et de ta dernière pesée actuels, plus d'un ancien brouillon. Terminer sans rien changer n'écrit rien et ne crée aucune pesée ; si tu remplaces une valeur déjà enregistrée, Spartiate te montre l'avant et l'après et te laisse refuser chaque remplacement.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.1/Spartiate.ipa",
+          "size": 7002539,
+          "sha256": "8b222c17a739053cebef3e9f8631860bd5886d6c124680d2eb66d03a846839c3",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.17.0",
           "buildVersion": "0.17.0",
           "date": "2026-11-12T18:13:10.134Z",
@@ -436,11 +446,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.17.0",
-      "versionDate": "2026-11-12T18:13:10.134Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment.\n\n- **Nettoyage** : du code, des textes et des réglages hérités de l'ancien projet de tâches, qui ne servaient plus à rien dans Spartiate, ont été retirés ; rien ne change dans ce que tu vois ni dans tes données.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.0/Spartiate.ipa",
-      "size": 7000455,
+      "version": "0.17.1",
+      "versionDate": "2026-11-12T21:35:37.708Z",
+      "versionDescription": "**Sans migration** (la base reste en schéma 13) : cette version peut s'installer sur PC et iPhone à tout moment ; installe pourtant les deux le même jour (la règle des photos doit être la même des deux côtés).\n\n- **Import d'une ancienne archive** : une archive faite avant les circuits (0.13.0 ou plus ancienne) n'efface plus tes groupes de circuit ni leurs repos, en « Fusionner » comme en « Remplacer ». Une valeur vraiment vidée dans une archive récente reste appliquée.\n- **Photos protégées dans le sélecteur d'apps** : sur iPhone, l'écran Corps cache désormais ses photos dans l'aperçu du sélecteur d'apps, même si le verrouillage de l'app est désactivé ; si la protection ne peut pas se poser, l'écran te le dit. À constater sur ton iPhone (H-32).\n- **Supprimer une photo** : seulement sur l'appareil qui a la photo, après confirmation. Sur le PC, qui n'a que la fiche, tu peux seulement « Masquer sur cet appareil » (rien ne change ailleurs) et tout réafficher plus tard.\n- **Une suppression venue d'ailleurs n'efface plus ta photo** : si la fiche est supprimée sur l'autre appareil ou par un import, la photo reste sur ton iPhone, marquée « Supprimée sur un autre appareil ou par un import », jusqu'à ce que tu la supprimes toi-même.\n- **Photo et fiche enregistrées ensemble** : un échec pendant l'ajout ou la suppression ne laisse plus une fiche sans image ni une image perdue.\n- **« Revoir mes réglages »** part maintenant de ton profil et de ta dernière pesée actuels, plus d'un ancien brouillon. Terminer sans rien changer n'écrit rien et ne crée aucune pesée ; si tu remplaces une valeur déjà enregistrée, Spartiate te montre l'avant et l'après et te laisse refuser chaque remplacement.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.17.1/Spartiate.ipa",
+      "size": 7002539,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
