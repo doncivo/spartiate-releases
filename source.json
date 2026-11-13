@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.18.2",
+          "buildVersion": "0.18.2",
+          "date": "2026-11-13T01:35:44.251Z",
+          "localizedDescription": "**Schéma 15 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0015 : tes favoris d'aliments sont enregistrés dans une table synchronisée. Un appareil resté en 0.18.1 ou avant garde les favoris reçus sans les afficher et les retrouve après sa mise à jour.\n\n- **Favoris synchronisés** (ta décision) : une étoile posée sur le PC apparaît sur l'iPhone et inversement. Tes favoris d'avant sont repris une fois, dans leur ordre, à la première ouverture de « Rechercher un aliment » sur chaque appareil, puis réunis par la synchro, sans doublon. Retirer un favori sur un appareil le retire aussi sur l'autre ; si tu le remets plus tard ailleurs, c'est ton dernier geste qui compte. Un favori dont l'aliment n'est pas encore arrivé sur cet appareil reste masqué au lieu d'être effacé.\n- **Journée rouge : charges −5 %** (ta décision) : quand tu acceptes la journée rouge (Recovery 33 ou moins), tes charges sont multipliées par 0,95 et arrondies vers le bas au matériel de ta salle (100 kg → 95 kg), jamais sous la charge la plus petite disponible (barre seule, plus petite paire d'haltères). Séries et répétitions restent celles de ta dernière séance, aucune hausse. Le bandeau dit « charges allégées de 5 % » et le bouton devient « Accepter l'allègement ». Sur un exercice assisté, l'assistance n'est jamais réduite.\n- **Export** : l'export et l'export complet (`food_favorite.csv`) portent tes favoris. Une archive faite avant cette version s'importe toujours et ne retire jamais un favori.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.2/Spartiate.ipa",
+          "size": 7037393,
+          "sha256": "9272ea332761349253a4307bf9834856ca69d1e1a5bdfc2013530a28ffbf6565",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.18.1",
           "buildVersion": "0.18.1",
           "date": "2026-11-13T01:07:00.775Z",
@@ -486,11 +496,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.18.1",
-      "versionDate": "2026-11-13T01:07:00.775Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 14) : cette version peut s'installer sur PC et iPhone à tout moment.\n\n- **Moteur de base de données à jour** : Spartiate embarque maintenant SQLite 3.54.1 (avant : 3.46.0), qui corrige une faille de sécurité (RUSTSEC-2026-0459) : un fichier de base accompagné d'un journal `-wal` piégé pouvait faire relire des octets de mémoire. Tu n'avais rien à craindre en pratique (Spartiate n'ouvre que ta propre base et tes sauvegardes), mais l'exception qui tolérait cette faille dans nos contrôles est retirée.\n- **Rien ne change pour toi** : tes données, tes séances et tes sauvegardes restent lisibles telles quelles. La protection ajoutée en 0.9.4 (une sauvegarde dont le journal `-wal` ne correspond pas est refusée) reste en place.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.1/Spartiate.ipa",
-      "size": 7034966,
+      "version": "0.18.2",
+      "versionDate": "2026-11-13T01:35:44.251Z",
+      "versionDescription": "**Schéma 15 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0015 : tes favoris d'aliments sont enregistrés dans une table synchronisée. Un appareil resté en 0.18.1 ou avant garde les favoris reçus sans les afficher et les retrouve après sa mise à jour.\n\n- **Favoris synchronisés** (ta décision) : une étoile posée sur le PC apparaît sur l'iPhone et inversement. Tes favoris d'avant sont repris une fois, dans leur ordre, à la première ouverture de « Rechercher un aliment » sur chaque appareil, puis réunis par la synchro, sans doublon. Retirer un favori sur un appareil le retire aussi sur l'autre ; si tu le remets plus tard ailleurs, c'est ton dernier geste qui compte. Un favori dont l'aliment n'est pas encore arrivé sur cet appareil reste masqué au lieu d'être effacé.\n- **Journée rouge : charges −5 %** (ta décision) : quand tu acceptes la journée rouge (Recovery 33 ou moins), tes charges sont multipliées par 0,95 et arrondies vers le bas au matériel de ta salle (100 kg → 95 kg), jamais sous la charge la plus petite disponible (barre seule, plus petite paire d'haltères). Séries et répétitions restent celles de ta dernière séance, aucune hausse. Le bandeau dit « charges allégées de 5 % » et le bouton devient « Accepter l'allègement ». Sur un exercice assisté, l'assistance n'est jamais réduite.\n- **Export** : l'export et l'export complet (`food_favorite.csv`) portent tes favoris. Une archive faite avant cette version s'importe toujours et ne retire jamais un favori.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.2/Spartiate.ipa",
+      "size": 7037393,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
