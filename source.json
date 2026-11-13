@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.22.2",
+          "buildVersion": "0.22.2",
+          "date": "2026-11-13T10:44:16.545Z",
+          "localizedDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Bouton « Pris » sur le rappel de compléments (iPhone)** : appui long sur la notification, puis « Pris » ; les prises de cette heure sont cochées sans ouvrir l'app. Elles apparaissent cochées à la prochaine ouverture, avec le message « Prise cochée depuis la notification. », puis sur le PC après la synchro.\n- **Deux appuis, une seule prise** : une action répétée ou rejouée ne coche rien de plus ; une prise que tu as décochée ensuite n'est pas recochée.\n- **Écran verrouillé** : toujours aucun nom de complément, seulement « Compléments », « N prises à cocher » et le bouton « Pris ».\n- **Appui sur la notification** : ouvre Aujourd'hui, comme avant, sans rien cocher.\n- **À vérifier** : le bouton sur ton iPhone, app en arrière-plan et app fermée (H-36) ; si rien n'est coché app fermée, dis-le : l'action ouvrira l'app à la place.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.2/Spartiate.ipa",
+          "size": 8709524,
+          "sha256": "96a6e2a6ed61491ec2c6ed3e30bfe7f89190b6babfc74b4de4571bb45089bc80",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.22.1",
           "buildVersion": "0.22.1",
           "date": "2026-11-13T10:17:00.846Z",
@@ -566,11 +576,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.22.1",
-      "versionDate": "2026-11-13T10:17:00.846Z",
-      "versionDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Même allure partout** : sur tous les écrans (Plus, Bibliothèque, Matériel, Journal des séances, Cardio, Stratégie, Check-in, Recettes, Compléments, Corps, Onboarding…), les titres de section sont en petites capitales bronze, les cartes laissent place à des filets fins, un seul bouton rouge par écran (l'action principale), des boutons arrondis d'au moins 44 px et des icônes de même taille et même trait.\n- **Onglets** : l'onglet actif de l'iPhone et l'entrée active de la barre latérale du PC ont un trait bronze.\n- **Séance du jour en un tap** : avec un cycle en cours, la carte « Séance du jour » d'Aujourd'hui et d'Entraînement donne le jour du programme et ses exercices ; « Lancer la séance » l'ouvre directement. « Autre séance… » garde les autres choix.\n- **Ajouter un repas en 3 taps** : le bouton de la carte Nutrition ouvre le Journal avec la recherche déjà ouverte.\n- **Charge en un tap** : sur la série en cours, « − / + » change la charge d'un cran de ton matériel (2,5 kg sans profil) et les répétitions d'une unité, sans clavier.\n- **Aujourd'hui sur PC** : la récupération en tête, une seule carte « État » à droite ; le profil se règle dans Plus › Profil et poids.\n- **Rangement** : « Journal des séances » quitte la carte Séance (la section « Journal » d'Entraînement le donne) ; « Tester le minuteur » passe dans Plus › Logs.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.1/Spartiate.ipa",
-      "size": 8702952,
+      "version": "0.22.2",
+      "versionDate": "2026-11-13T10:44:16.545Z",
+      "versionDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Bouton « Pris » sur le rappel de compléments (iPhone)** : appui long sur la notification, puis « Pris » ; les prises de cette heure sont cochées sans ouvrir l'app. Elles apparaissent cochées à la prochaine ouverture, avec le message « Prise cochée depuis la notification. », puis sur le PC après la synchro.\n- **Deux appuis, une seule prise** : une action répétée ou rejouée ne coche rien de plus ; une prise que tu as décochée ensuite n'est pas recochée.\n- **Écran verrouillé** : toujours aucun nom de complément, seulement « Compléments », « N prises à cocher » et le bouton « Pris ».\n- **Appui sur la notification** : ouvre Aujourd'hui, comme avant, sans rien cocher.\n- **À vérifier** : le bouton sur ton iPhone, app en arrière-plan et app fermée (H-36) ; si rien n'est coché app fermée, dis-le : l'action ouvrira l'app à la place.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.2/Spartiate.ipa",
+      "size": 8709524,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
