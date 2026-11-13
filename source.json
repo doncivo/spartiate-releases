@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.18.3",
+          "buildVersion": "0.18.3",
+          "date": "2026-11-13T03:25:50.882Z",
+          "localizedDescription": "**Schéma 16 : mettre à jour le PC et l'iPhone le même jour, avant d'utiliser « Repartir de zéro ».** Migration 0016 : une petite table synchronisée porte les remises à zéro. Un appareil resté en 0.18.2 ou avant affiche « Mets à jour l'app », garde ses données le temps de sa mise à jour, puis efface à son tour.\n\n- **Repartir de zéro** (ta décision) : Plus › Données › « Repartir de zéro », sur l'iPhone et le PC. L'écran dit ce qui est effacé (profil, objectifs, programmes, routines, matériel, séances, nutrition, pesées, mensurations, photos, récupération, Renpho, onboarding) et ce qui est gardé (tes réglages de l'appareil, l'appairage et la clé de synchro, le contenu fourni avec l'app). Tu confirmes en tapant EFFACER. C'est irréversible, sans archive avant.\n- **Sur tes deux appareils** : l'autre appareil efface aussi à sa prochaine synchro, même s'il était hors ligne. Rien d'avant ne revient, ni d'un vieux journal, ni d'un appareil en retard. Ce que tu saisis après circule normalement.\n- **Comme neuf** : après l'effacement, l'app redémarre sur l'onboarding. Refusé si une séance est en cours. Le dossier Santé n'est pas touché, le prochain import relit ses fichiers. Une sauvegarde d'avant ne peut plus être restaurée par erreur.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.3/Spartiate.ipa",
+          "size": 7046280,
+          "sha256": "68d07a036de7479451edf49d6565d81b37392f2ba9290e3bffc7c5dd27ec1f49",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.18.2",
           "buildVersion": "0.18.2",
           "date": "2026-11-13T01:35:44.251Z",
@@ -496,11 +506,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.18.2",
-      "versionDate": "2026-11-13T01:35:44.251Z",
-      "versionDescription": "**Schéma 15 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0015 : tes favoris d'aliments sont enregistrés dans une table synchronisée. Un appareil resté en 0.18.1 ou avant garde les favoris reçus sans les afficher et les retrouve après sa mise à jour.\n\n- **Favoris synchronisés** (ta décision) : une étoile posée sur le PC apparaît sur l'iPhone et inversement. Tes favoris d'avant sont repris une fois, dans leur ordre, à la première ouverture de « Rechercher un aliment » sur chaque appareil, puis réunis par la synchro, sans doublon. Retirer un favori sur un appareil le retire aussi sur l'autre ; si tu le remets plus tard ailleurs, c'est ton dernier geste qui compte. Un favori dont l'aliment n'est pas encore arrivé sur cet appareil reste masqué au lieu d'être effacé.\n- **Journée rouge : charges −5 %** (ta décision) : quand tu acceptes la journée rouge (Recovery 33 ou moins), tes charges sont multipliées par 0,95 et arrondies vers le bas au matériel de ta salle (100 kg → 95 kg), jamais sous la charge la plus petite disponible (barre seule, plus petite paire d'haltères). Séries et répétitions restent celles de ta dernière séance, aucune hausse. Le bandeau dit « charges allégées de 5 % » et le bouton devient « Accepter l'allègement ». Sur un exercice assisté, l'assistance n'est jamais réduite.\n- **Export** : l'export et l'export complet (`food_favorite.csv`) portent tes favoris. Une archive faite avant cette version s'importe toujours et ne retire jamais un favori.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.2/Spartiate.ipa",
-      "size": 7037393,
+      "version": "0.18.3",
+      "versionDate": "2026-11-13T03:25:50.882Z",
+      "versionDescription": "**Schéma 16 : mettre à jour le PC et l'iPhone le même jour, avant d'utiliser « Repartir de zéro ».** Migration 0016 : une petite table synchronisée porte les remises à zéro. Un appareil resté en 0.18.2 ou avant affiche « Mets à jour l'app », garde ses données le temps de sa mise à jour, puis efface à son tour.\n\n- **Repartir de zéro** (ta décision) : Plus › Données › « Repartir de zéro », sur l'iPhone et le PC. L'écran dit ce qui est effacé (profil, objectifs, programmes, routines, matériel, séances, nutrition, pesées, mensurations, photos, récupération, Renpho, onboarding) et ce qui est gardé (tes réglages de l'appareil, l'appairage et la clé de synchro, le contenu fourni avec l'app). Tu confirmes en tapant EFFACER. C'est irréversible, sans archive avant.\n- **Sur tes deux appareils** : l'autre appareil efface aussi à sa prochaine synchro, même s'il était hors ligne. Rien d'avant ne revient, ni d'un vieux journal, ni d'un appareil en retard. Ce que tu saisis après circule normalement.\n- **Comme neuf** : après l'effacement, l'app redémarre sur l'onboarding. Refusé si une séance est en cours. Le dossier Santé n'est pas touché, le prochain import relit ses fichiers. Une sauvegarde d'avant ne peut plus être restaurée par erreur.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.3/Spartiate.ipa",
+      "size": 7046280,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
