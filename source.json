@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.19.1",
+          "buildVersion": "0.19.1",
+          "date": "2026-11-13T04:22:58.502Z",
+          "localizedDescription": "Rien ne change pour toi à l'écran, aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Second nettoyage** (ta décision du 12 novembre) : la lecture de texte de secours (tesseract.js), l'analyse de dates en langage libre (chrono-node) et la saisie rapide de tâches, héritées de CircleTasks et sans aucun écran dans Spartiate, sont retirées. L'app embarque environ 4,7 Mo de moins.\n- **Gardé exprès** : la lecture de texte native (Vision sur l'iPhone, Windows sur le PC), prévue par le PRD pour importer un programme papier (I6). La retirer demande ta décision.\n- **Pas encore fait** : la réécriture des tests de synchro qui s'appuient encore sur les anciennes tâches et projets de CircleTasks (222 fichiers) dépasse ce ticket ; elle passe dans un ticket dédié (CLEAN-03).",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.19.1/Spartiate.ipa",
+          "size": 5031695,
+          "sha256": "ead6dc0af9471aef4115e7e394d6b52e096eaad62d73c7f5fe5baaf276c70079",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.19.0",
           "buildVersion": "0.19.0",
           "date": "2026-11-13T04:00:23.785Z",
@@ -516,11 +526,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.19.0",
-      "versionDate": "2026-11-13T04:00:23.785Z",
-      "versionDescription": "**Sans migration** (la base reste en schéma 15) : cette version peut s'installer sur PC et iPhone à tout moment.\n\nPremier lot du chantier ergonomie, d'après l'aperçu esthétique que tu as validé le 12 novembre. Mêmes informations, mêmes onglets, seule la présentation change.\n\n- **Séance active** : la série à faire maintenant est mise en avant au centre (« Série en cours », grands chiffres, « Valider la série » plus grand). Après validation, la suivante prend sa place, y compris dans un superset ou un circuit. Sous le chrono, tu vois où tu en es (« Exercice 2 sur 5 »).\n- **Repos** : une barre se remplit pendant le repos, en plus du temps restant ; elle reste juste après un « +30 s » ou un redémarrage.\n- **Un chiffre par bloc** : calories restantes (Aujourd'hui, Journal, Dashboard), séries faites d'une séance ouverte, Recovery (cadran agrandi), chiffres du résumé de séance et semaine du programme ressortent en grand, en bronze.\n- **Moins de cartes** : la nutrition d'Aujourd'hui n'est plus encadrée, les pas sont dans le bloc Récupération, les chiffres du résumé ne sont plus dans une carte.\n- **Import Santé plus court** : quand ta récupération date de plusieurs jours, « Ouvrir Apple Santé » est proposé directement dans la carte (un tap de moins).\n- **Boutons plus faciles à toucher** : « Annuler » du bandeau d'annulation et les jours de la semaine de la configuration font au moins 44 points.\n- **Progrès** ne dit plus « arrive avec une prochaine version » au-dessus de Récupération et Corps, qui y fonctionnent.\n- **À valider** : quatre propositions qui changeraient la navigation (lancer la séance du jour en un tap, ajouter un repas en un tap de moins, « − / + » sur la charge, Aujourd'hui sur PC regroupé) t'attendent en maquettes dans `docs/maquettes/propositions/ergo-01-structure/`.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.19.0/Spartiate.ipa",
-      "size": 7046483,
+      "version": "0.19.1",
+      "versionDate": "2026-11-13T04:22:58.502Z",
+      "versionDescription": "Rien ne change pour toi à l'écran, aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Second nettoyage** (ta décision du 12 novembre) : la lecture de texte de secours (tesseract.js), l'analyse de dates en langage libre (chrono-node) et la saisie rapide de tâches, héritées de CircleTasks et sans aucun écran dans Spartiate, sont retirées. L'app embarque environ 4,7 Mo de moins.\n- **Gardé exprès** : la lecture de texte native (Vision sur l'iPhone, Windows sur le PC), prévue par le PRD pour importer un programme papier (I6). La retirer demande ta décision.\n- **Pas encore fait** : la réécriture des tests de synchro qui s'appuient encore sur les anciennes tâches et projets de CircleTasks (222 fichiers) dépasse ce ticket ; elle passe dans un ticket dédié (CLEAN-03).",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.19.1/Spartiate.ipa",
+      "size": 5031695,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
