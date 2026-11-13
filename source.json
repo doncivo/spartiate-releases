@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.20.0",
+          "buildVersion": "0.20.0",
+          "date": "2026-11-13T05:22:05.480Z",
+          "localizedDescription": "**Schéma 17 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0017 : tes compléments et leurs prises sont enregistrés dans deux tables synchronisées. Un appareil resté en version antérieure garde ce qu'il reçoit sans l'afficher et le retrouve après sa mise à jour.\n\n- **Compléments** : Nutrition › Compléments. Nom, dose et unité si tu veux, une à quatre heures de prise (24 h), les jours de la semaine ; actif ou en pause, modifiable, supprimable après confirmation.\n- **La prise du jour en un tap** : la carte « Compléments » d'Aujourd'hui liste les prises dues ; un tap coche, un autre décoche. Cochée sur le PC, elle l'est aussi sur l'iPhone (et la même prise cochée des deux côtés n'en fait qu'une).\n- **Constance** : sur 7 et 30 jours, et ta série de jours complets ; « — » quand rien n'était prévu.\n- **Rappels sur l'iPhone** (désactivés par défaut) : une notification à chaque heure de prise, sans le nom du complément sur l'écran verrouillé, retirée quand c'est coché. Le PC n'envoie rien. Pas encore de bouton « Pris » dans la notification : un appui ouvre Aujourd'hui.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.20.0/Spartiate.ipa",
+          "size": 5046826,
+          "sha256": "3af152dceab23ea8ce6897bef52a03f4c19d149c85583ea97abf56802117907e",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.19.1",
           "buildVersion": "0.19.1",
           "date": "2026-11-13T04:22:58.502Z",
@@ -526,11 +536,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.19.1",
-      "versionDate": "2026-11-13T04:22:58.502Z",
-      "versionDescription": "Rien ne change pour toi à l'écran, aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Second nettoyage** (ta décision du 12 novembre) : la lecture de texte de secours (tesseract.js), l'analyse de dates en langage libre (chrono-node) et la saisie rapide de tâches, héritées de CircleTasks et sans aucun écran dans Spartiate, sont retirées. L'app embarque environ 4,7 Mo de moins.\n- **Gardé exprès** : la lecture de texte native (Vision sur l'iPhone, Windows sur le PC), prévue par le PRD pour importer un programme papier (I6). La retirer demande ta décision.\n- **Pas encore fait** : la réécriture des tests de synchro qui s'appuient encore sur les anciennes tâches et projets de CircleTasks (222 fichiers) dépasse ce ticket ; elle passe dans un ticket dédié (CLEAN-03).",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.19.1/Spartiate.ipa",
-      "size": 5031695,
+      "version": "0.20.0",
+      "versionDate": "2026-11-13T05:22:05.480Z",
+      "versionDescription": "**Schéma 17 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0017 : tes compléments et leurs prises sont enregistrés dans deux tables synchronisées. Un appareil resté en version antérieure garde ce qu'il reçoit sans l'afficher et le retrouve après sa mise à jour.\n\n- **Compléments** : Nutrition › Compléments. Nom, dose et unité si tu veux, une à quatre heures de prise (24 h), les jours de la semaine ; actif ou en pause, modifiable, supprimable après confirmation.\n- **La prise du jour en un tap** : la carte « Compléments » d'Aujourd'hui liste les prises dues ; un tap coche, un autre décoche. Cochée sur le PC, elle l'est aussi sur l'iPhone (et la même prise cochée des deux côtés n'en fait qu'une).\n- **Constance** : sur 7 et 30 jours, et ta série de jours complets ; « — » quand rien n'était prévu.\n- **Rappels sur l'iPhone** (désactivés par défaut) : une notification à chaque heure de prise, sans le nom du complément sur l'écran verrouillé, retirée quand c'est coché. Le PC n'envoie rien. Pas encore de bouton « Pris » dans la notification : un appui ouvre Aujourd'hui.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.20.0/Spartiate.ipa",
+      "size": 5046826,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
