@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.21.0",
+          "buildVersion": "0.21.0",
+          "date": "2026-11-13T06:59:08.524Z",
+          "localizedDescription": "**Schéma 18 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0018 : une table synchronisée porte les séances cardio, une table propre à chaque appareil garde les tracés GPS. Un appareil resté en version précédente garde les séances reçues de côté et les reprend après sa mise à jour.\n\n- **Cardio** (Entraînement › Cardio) : tu saisis une séance (marche, course, vélo, rameur, elliptique, SkiErg ou autre), son début, sa durée, la distance en km et la FC moyenne si tu les as, ton ressenti de 1 à 10 et des notes. L'historique liste tes séances ; tu peux les modifier ou les supprimer (avec confirmation).\n- **Suivi GPS sur l'iPhone** : « Démarrer le suivi GPS » suit la durée et la distance tant que l'app reste ouverte (aucun suivi en arrière-plan). L'iPhone te demande d'abord l'autorisation « pendant l'utilisation ». « Arrêter et reporter » remplit le formulaire ; tu choisis le ressenti et tu enregistres. Le tracé reste sur l'iPhone : seules la durée et la distance vont sur le PC. Refus ou signal perdu : l'écran le dit, la saisie à la main reste là. Le PC n'a pas de GPS : saisie à la main.\n- **Exertion** : le cardio compte enfin. Règle « minutes × ressenti » (45 min à 7/10 → 315 points → Exertion 6,5), ajoutée à la musculation avant la courbe du PRD ; constante réglable, à recaler avec toi après quelques semaines.\n- **Progrès** : une carte Cardio donne tes séances, ta durée et ta distance par semaine sur quatre semaines.\n- Export, import et export complet portent les séances cardio (jamais les tracés). « Repartir de zéro » efface aussi le cardio et les tracés.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.21.0/Spartiate.ipa",
+          "size": 5088394,
+          "sha256": "7989ccc386b9f0ac07491f720ba801d35d19ef5214b97b1784fc95e5e8c91618",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.20.0",
           "buildVersion": "0.20.0",
           "date": "2026-11-13T05:22:05.480Z",
@@ -536,17 +546,18 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.20.0",
-      "versionDate": "2026-11-13T05:22:05.480Z",
-      "versionDescription": "**Schéma 17 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0017 : tes compléments et leurs prises sont enregistrés dans deux tables synchronisées. Un appareil resté en version antérieure garde ce qu'il reçoit sans l'afficher et le retrouve après sa mise à jour.\n\n- **Compléments** : Nutrition › Compléments. Nom, dose et unité si tu veux, une à quatre heures de prise (24 h), les jours de la semaine ; actif ou en pause, modifiable, supprimable après confirmation.\n- **La prise du jour en un tap** : la carte « Compléments » d'Aujourd'hui liste les prises dues ; un tap coche, un autre décoche. Cochée sur le PC, elle l'est aussi sur l'iPhone (et la même prise cochée des deux côtés n'en fait qu'une).\n- **Constance** : sur 7 et 30 jours, et ta série de jours complets ; « — » quand rien n'était prévu.\n- **Rappels sur l'iPhone** (désactivés par défaut) : une notification à chaque heure de prise, sans le nom du complément sur l'écran verrouillé, retirée quand c'est coché. Le PC n'envoie rien. Pas encore de bouton « Pris » dans la notification : un appui ouvre Aujourd'hui.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.20.0/Spartiate.ipa",
-      "size": 5046826,
+      "version": "0.21.0",
+      "versionDate": "2026-11-13T06:59:08.524Z",
+      "versionDescription": "**Schéma 18 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0018 : une table synchronisée porte les séances cardio, une table propre à chaque appareil garde les tracés GPS. Un appareil resté en version précédente garde les séances reçues de côté et les reprend après sa mise à jour.\n\n- **Cardio** (Entraînement › Cardio) : tu saisis une séance (marche, course, vélo, rameur, elliptique, SkiErg ou autre), son début, sa durée, la distance en km et la FC moyenne si tu les as, ton ressenti de 1 à 10 et des notes. L'historique liste tes séances ; tu peux les modifier ou les supprimer (avec confirmation).\n- **Suivi GPS sur l'iPhone** : « Démarrer le suivi GPS » suit la durée et la distance tant que l'app reste ouverte (aucun suivi en arrière-plan). L'iPhone te demande d'abord l'autorisation « pendant l'utilisation ». « Arrêter et reporter » remplit le formulaire ; tu choisis le ressenti et tu enregistres. Le tracé reste sur l'iPhone : seules la durée et la distance vont sur le PC. Refus ou signal perdu : l'écran le dit, la saisie à la main reste là. Le PC n'a pas de GPS : saisie à la main.\n- **Exertion** : le cardio compte enfin. Règle « minutes × ressenti » (45 min à 7/10 → 315 points → Exertion 6,5), ajoutée à la musculation avant la courbe du PRD ; constante réglable, à recaler avec toi après quelques semaines.\n- **Progrès** : une carte Cardio donne tes séances, ta durée et ta distance par semaine sur quatre semaines.\n- Export, import et export complet portent les séances cardio (jamais les tracés). « Repartir de zéro » efface aussi le cardio et les tracés.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.21.0/Spartiate.ipa",
+      "size": 5088394,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
           "NSCameraUsageDescription": "Spartiate utilise la caméra pour scanner le code d'association affiché sur votre PC et pour photographier une liste de tâches à lire.",
           "NSFaceIDUsageDescription": "Spartiate utilise Face ID pour garder vos tâches privées.",
           "NSHealthShareUsageDescription": "Spartiate lit ton poids et tes pas pour les afficher dans l’application. Aucune autre donnée de Santé n’est consultée.",
+          "NSLocationWhenInUseUsageDescription": "Spartiate utilise la position de l’iPhone seulement pendant une séance cardio que tu suis, app ouverte, pour mesurer la durée et la distance. Le tracé reste sur l’iPhone.",
           "NSMicrophoneUsageDescription": "Spartiate utilise le micro seulement pendant que vous dictez une tâche. Rien n'est enregistré.",
           "NSSpeechRecognitionUsageDescription": "Spartiate transforme votre dictée en texte sur l'iPhone, sans rien envoyer."
         }
