@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.22.3",
+          "buildVersion": "0.22.3",
+          "date": "2026-11-13T11:48:28.733Z",
+          "localizedDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Séance du jour comme sur l'aperçu** : avec un cycle en cours, la carte d'Aujourd'hui (iPhone et PC) et d'Entraînement donne la durée estimée et le nombre d'exercices (« ≈ 31 min · 5 exercices »), les 3 premiers exercices avec la charge que la séance te proposera, en bronze, puis « + n exercices ». « Lancer la séance » reste le bouton rouge.\n- **Pas de chiffre deviné** : un exercice sans charge connue (jamais fait, au poids du corps) s'affiche sans charge ; la séance te dira « À saisir ».\n- **Carte Poids sur PC** : inchangée.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.3/Spartiate.ipa",
+          "size": 8712243,
+          "sha256": "ffb70f48be69eea4e7db6033e690208e69ea7c3ea396a30b4660e0ad6c6eb438",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.22.2",
           "buildVersion": "0.22.2",
           "date": "2026-11-13T10:44:16.545Z",
@@ -576,11 +586,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.22.2",
-      "versionDate": "2026-11-13T10:44:16.545Z",
-      "versionDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Bouton « Pris » sur le rappel de compléments (iPhone)** : appui long sur la notification, puis « Pris » ; les prises de cette heure sont cochées sans ouvrir l'app. Elles apparaissent cochées à la prochaine ouverture, avec le message « Prise cochée depuis la notification. », puis sur le PC après la synchro.\n- **Deux appuis, une seule prise** : une action répétée ou rejouée ne coche rien de plus ; une prise que tu as décochée ensuite n'est pas recochée.\n- **Écran verrouillé** : toujours aucun nom de complément, seulement « Compléments », « N prises à cocher » et le bouton « Pris ».\n- **Appui sur la notification** : ouvre Aujourd'hui, comme avant, sans rien cocher.\n- **À vérifier** : le bouton sur ton iPhone, app en arrière-plan et app fermée (H-36) ; si rien n'est coché app fermée, dis-le : l'action ouvrira l'app à la place.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.2/Spartiate.ipa",
-      "size": 8709524,
+      "version": "0.22.3",
+      "versionDate": "2026-11-13T11:48:28.733Z",
+      "versionDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Séance du jour comme sur l'aperçu** : avec un cycle en cours, la carte d'Aujourd'hui (iPhone et PC) et d'Entraînement donne la durée estimée et le nombre d'exercices (« ≈ 31 min · 5 exercices »), les 3 premiers exercices avec la charge que la séance te proposera, en bronze, puis « + n exercices ». « Lancer la séance » reste le bouton rouge.\n- **Pas de chiffre deviné** : un exercice sans charge connue (jamais fait, au poids du corps) s'affiche sans charge ; la séance te dira « À saisir ».\n- **Carte Poids sur PC** : inchangée.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.3/Spartiate.ipa",
+      "size": 8712243,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
