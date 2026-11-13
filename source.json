@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.18.1",
+          "buildVersion": "0.18.1",
+          "date": "2026-11-13T01:07:00.775Z",
+          "localizedDescription": "**Sans migration** (la base reste en schéma 14) : cette version peut s'installer sur PC et iPhone à tout moment.\n\n- **Moteur de base de données à jour** : Spartiate embarque maintenant SQLite 3.54.1 (avant : 3.46.0), qui corrige une faille de sécurité (RUSTSEC-2026-0459) : un fichier de base accompagné d'un journal `-wal` piégé pouvait faire relire des octets de mémoire. Tu n'avais rien à craindre en pratique (Spartiate n'ouvre que ta propre base et tes sauvegardes), mais l'exception qui tolérait cette faille dans nos contrôles est retirée.\n- **Rien ne change pour toi** : tes données, tes séances et tes sauvegardes restent lisibles telles quelles. La protection ajoutée en 0.9.4 (une sauvegarde dont le journal `-wal` ne correspond pas est refusée) reste en place.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.1/Spartiate.ipa",
+          "size": 7034966,
+          "sha256": "eb25e67a63e2f870d61e9d0c8303d9e7c6b71fb18a8ddea837219013960398cc",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.18.0",
           "buildVersion": "0.18.0",
           "date": "2026-11-12T23:50:19.164Z",
@@ -476,11 +486,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.18.0",
-      "versionDate": "2026-11-12T23:50:19.164Z",
-      "versionDescription": "**Schéma 14 : mettre à jour le PC et l'iPhone le même jour, avant toute saisie.** Migration 0014 : les lignes de routine reçoivent leur groupe de circuit. Un appareil resté en 0.17 garde les groupes de routine reçus sans les afficher et les retrouve après sa mise à jour.\n\n- **Superset, triset ou circuit dans tes routines** (ta décision) : dans l'éditeur de routine, « Grouper en circuit » relie des exercices d'un même jour (deux = superset, trois = triset, quatre ou plus = circuit), avec le nombre de tours, le repos entre exercices et le repos de fin de tour. Le groupe est enregistré avec la routine et tu le retrouves dans chaque séance démarrée depuis ce jour : séries alternées, repos du groupe. « Défaire le groupe » ou retirer un exercice d'un superset le dissout. Les programmes de départ et les séances proposées restent sans groupe tant que tu n'en crées pas.\n- **Déroulé série par série** (ta décision) : dans Journal, le détail d'une séance passée propose « Voir le déroulé série par série ». Tu y revois chaque série dans l'ordre où tu l'as validée, avec l'heure, la charge, les répétitions et le repos réellement pris face à ce qui était prévu, et l'écart écrit en toutes lettres (« conforme », « 2,5 kg de plus », « plus long de 1 min 30 s »). Le repos est mesuré d'une validation à la suivante, exécution de la série comprise. Si l'heure d'une validation manque, le repos est dit « inconnu », jamais 0. Rien n'est créé ni modifié.\n- **« Refaire cette séance »** : le bouton qui crée une nouvelle séance à partir d'une séance passée (même exercices, mêmes groupes, tes charges et répétitions en cibles) s'appelait « Rejouer cette séance ». Il fonctionne comme avant.\n- **Export** : l'export et l'export complet (`routine_exercise.csv`) portent les groupes de tes routines. Une archive faite avant cette version s'importe toujours et ne retire jamais un groupe existant.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.0/Spartiate.ipa",
-      "size": 7010498,
+      "version": "0.18.1",
+      "versionDate": "2026-11-13T01:07:00.775Z",
+      "versionDescription": "**Sans migration** (la base reste en schéma 14) : cette version peut s'installer sur PC et iPhone à tout moment.\n\n- **Moteur de base de données à jour** : Spartiate embarque maintenant SQLite 3.54.1 (avant : 3.46.0), qui corrige une faille de sécurité (RUSTSEC-2026-0459) : un fichier de base accompagné d'un journal `-wal` piégé pouvait faire relire des octets de mémoire. Tu n'avais rien à craindre en pratique (Spartiate n'ouvre que ta propre base et tes sauvegardes), mais l'exception qui tolérait cette faille dans nos contrôles est retirée.\n- **Rien ne change pour toi** : tes données, tes séances et tes sauvegardes restent lisibles telles quelles. La protection ajoutée en 0.9.4 (une sauvegarde dont le journal `-wal` ne correspond pas est refusée) reste en place.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.18.1/Spartiate.ipa",
+      "size": 7034966,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
