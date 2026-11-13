@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.23.0",
+          "buildVersion": "0.23.0",
+          "date": "2026-11-13T16:16:32.526Z",
+          "localizedDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Charges aux haltères** : un exercice à deux haltères affiche « 2 × 26 kg » partout (Aujourd'hui, séance, fiche, journal, résumé, records) ; un seul haltère reste « 26 kg ». La saisie se fait toujours par haltère (« Charge par haltère (kg) ») ; rien ne change dans tes données.\n- **Onboarding en 8 étapes comme sur l'aperçu** (iPhone et PC) : sur PC, les étapes à gauche avec leur avancement, et le clavier (Entrée, Tab, flèches pour le rythme, 1 / 2 / 3 pour l'expérience). Sur l'iPhone, ton poids est pré-rempli depuis Santé si tu l'as autorisé. À revoir par Plus › Profil et poids › « Revoir mes réglages ».\n- **Aujourd'hui sur PC** : récupération puis séance du jour en tableau (exercices, cibles, charges, « Saisir la séance ici ») à gauche ; nutrition et macros, poids, dépense, semaine et derniers records à droite ; la carte « État » en petit, en bas.\n- **Plus** : 4 groupes (Moi, Sources, App, Données), chaque réglage avec sa valeur actuelle ; sur PC, la liste à gauche et le réglage ouvert à droite.\n- **Écrans refaits** : Progrès › Corps (silhouette, dernière mesure, écart sur 4 semaines, saisie en une ligne), fiche exercice, Matériel (PC), check-in hebdomadaire, Compléments, cardio GPS en cours (tracé schématique sur l'iPhone), Appareils et synchro.\n- **États dégradés** : bandeaux fins ; une donnée manquante s'affiche « — » avec sa raison, jamais un zéro.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.23.0/Spartiate.ipa",
+          "size": 8736896,
+          "sha256": "bff225245c3c6f212faa7f5c796ac7d61c51311984a684c5a81a6ca328c8f029",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.22.3",
           "buildVersion": "0.22.3",
           "date": "2026-11-13T11:48:28.733Z",
@@ -586,11 +596,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.22.3",
-      "versionDate": "2026-11-13T11:48:28.733Z",
-      "versionDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Séance du jour comme sur l'aperçu** : avec un cycle en cours, la carte d'Aujourd'hui (iPhone et PC) et d'Entraînement donne la durée estimée et le nombre d'exercices (« ≈ 31 min · 5 exercices »), les 3 premiers exercices avec la charge que la séance te proposera, en bronze, puis « + n exercices ». « Lancer la séance » reste le bouton rouge.\n- **Pas de chiffre deviné** : un exercice sans charge connue (jamais fait, au poids du corps) s'affiche sans charge ; la séance te dira « À saisir ».\n- **Carte Poids sur PC** : inchangée.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.22.3/Spartiate.ipa",
-      "size": 8712243,
+      "version": "0.23.0",
+      "versionDate": "2026-11-13T16:16:32.526Z",
+      "versionDescription": "Aucune migration : ta base et ta synchro restent telles quelles. Tu peux mettre à jour le PC et l'iPhone quand tu veux.\n\n- **Charges aux haltères** : un exercice à deux haltères affiche « 2 × 26 kg » partout (Aujourd'hui, séance, fiche, journal, résumé, records) ; un seul haltère reste « 26 kg ». La saisie se fait toujours par haltère (« Charge par haltère (kg) ») ; rien ne change dans tes données.\n- **Onboarding en 8 étapes comme sur l'aperçu** (iPhone et PC) : sur PC, les étapes à gauche avec leur avancement, et le clavier (Entrée, Tab, flèches pour le rythme, 1 / 2 / 3 pour l'expérience). Sur l'iPhone, ton poids est pré-rempli depuis Santé si tu l'as autorisé. À revoir par Plus › Profil et poids › « Revoir mes réglages ».\n- **Aujourd'hui sur PC** : récupération puis séance du jour en tableau (exercices, cibles, charges, « Saisir la séance ici ») à gauche ; nutrition et macros, poids, dépense, semaine et derniers records à droite ; la carte « État » en petit, en bas.\n- **Plus** : 4 groupes (Moi, Sources, App, Données), chaque réglage avec sa valeur actuelle ; sur PC, la liste à gauche et le réglage ouvert à droite.\n- **Écrans refaits** : Progrès › Corps (silhouette, dernière mesure, écart sur 4 semaines, saisie en une ligne), fiche exercice, Matériel (PC), check-in hebdomadaire, Compléments, cardio GPS en cours (tracé schématique sur l'iPhone), Appareils et synchro.\n- **États dégradés** : bandeaux fins ; une donnée manquante s'affiche « — » avec sa raison, jamais un zéro.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.23.0/Spartiate.ipa",
+      "size": 8736896,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
