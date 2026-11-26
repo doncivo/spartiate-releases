@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.29.9",
+          "buildVersion": "0.29.9",
+          "date": "2026-11-26T11:26:01.224Z",
+          "localizedDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 23, rien n'est modifié ni effacé. Les deux appareils restent compatibles avec un appareil resté en 0.29.8.\n\n- **Séance (Q-11)** : une charge que tu as décidée depuis ta dernière séance devient la référence de l'exercice ; une semaine de décharge, une reprise après une pause ou une journée rouge la réduisent, comme une charge tirée de l'historique (poids du corps et exercices chronométrés compris), avec la note « Référence : ta dernière décision, réduite comme une séance de ton historique. » ; le bouton de décharge reste disponible. Avant, elle était reprise telle quelle.\n- **Journal des séances (Q-13)** : une série corrigée affiche maintenant sa valeur d'avant, par exemple « corrigée : 80 → 82,5 kg ».\n- **Journaux (Q-34)** : l'écran, la ligne de Plus, le fichier exporté et les messages de Plus › Apple Santé disent « Journaux » ; le mot « Logs » n'apparaît plus.\n- **Apple Santé (Q-18)** : les fichiers du raccourci « Spartiate — récupération » (HRV, FC repos, sommeil, pas) doivent finir par un saut de ligne ; sinon ils sont refusés avec un message qui dit quoi changer dans le raccourci. Les pesées (`poids.csv`) ne sont pas concernées. Le guide du raccourci est à jour.\n- **Stratégie (Q-23)** : Nutrition › Stratégie et le check-in suivent l'objectif de ton profil (perte, maintien, prise), affiché en lecture seule ; il se change dans Plus › Profil et poids. Le rythme se règle toujours dans Stratégie ; un profil en prise sans rythme choisi suit 0,25 kg par semaine.\n\nAprès la mise à jour : la liste est dans `docs/constats-ali.md` (section 0.29.9). En priorité, sur l'iPhone, modifie le raccourci « Spartiate — récupération » comme le dit le guide (étape 3 bis), sinon ses fichiers seront refusés.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.29.9/Spartiate.ipa",
+          "size": 9838216,
+          "sha256": "3339f6da25980aa67279f2fe38f23e4e4122a142d4ddfa489cc2695da9a8832b",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.29.8",
           "buildVersion": "0.29.8",
           "date": "2026-11-26T07:23:53.071Z",
@@ -746,11 +756,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.29.8",
-      "versionDate": "2026-11-26T07:23:53.071Z",
-      "versionDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 23, rien n'est modifié ni effacé. Les deux appareils restent compatibles avec un appareil resté en 0.29.7.\n\n- **Tes décisions du 26/11** : tes réponses aux questions Q-11 à Q-40 sont consignées (D-647 à D-654, D-657 à D-680 ; D-679 et D-680 validées, D-695) et rangées au registre ; plus aucune question n'est ouverte. Elles seront livrées dans les versions suivantes (0.29.9, puis 0.30.0 à 0.30.3) ; cette version ne change encore rien à l'écran.\n- **Spécification** : la description des droits de l'app sur l'iPhone (PRD § 19.4) dit maintenant ce que l'app porte réellement (une seule autorisation, Apple Santé) ; rien ne change dans l'app installée.\n- **Maintenance** : six fichiers de tests de la synchro passent sur le banc de tests actuel, sans changer l'app.\n\nAprès la mise à jour : rien de nouveau à vérifier à l'écran ; la section « CSP stricte (D-650) » de `docs/constats-ali.md` liste les écrans à ouvrir à chaque version.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.29.8/Spartiate.ipa",
-      "size": 9835680,
+      "version": "0.29.9",
+      "versionDate": "2026-11-26T11:26:01.224Z",
+      "versionDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 23, rien n'est modifié ni effacé. Les deux appareils restent compatibles avec un appareil resté en 0.29.8.\n\n- **Séance (Q-11)** : une charge que tu as décidée depuis ta dernière séance devient la référence de l'exercice ; une semaine de décharge, une reprise après une pause ou une journée rouge la réduisent, comme une charge tirée de l'historique (poids du corps et exercices chronométrés compris), avec la note « Référence : ta dernière décision, réduite comme une séance de ton historique. » ; le bouton de décharge reste disponible. Avant, elle était reprise telle quelle.\n- **Journal des séances (Q-13)** : une série corrigée affiche maintenant sa valeur d'avant, par exemple « corrigée : 80 → 82,5 kg ».\n- **Journaux (Q-34)** : l'écran, la ligne de Plus, le fichier exporté et les messages de Plus › Apple Santé disent « Journaux » ; le mot « Logs » n'apparaît plus.\n- **Apple Santé (Q-18)** : les fichiers du raccourci « Spartiate — récupération » (HRV, FC repos, sommeil, pas) doivent finir par un saut de ligne ; sinon ils sont refusés avec un message qui dit quoi changer dans le raccourci. Les pesées (`poids.csv`) ne sont pas concernées. Le guide du raccourci est à jour.\n- **Stratégie (Q-23)** : Nutrition › Stratégie et le check-in suivent l'objectif de ton profil (perte, maintien, prise), affiché en lecture seule ; il se change dans Plus › Profil et poids. Le rythme se règle toujours dans Stratégie ; un profil en prise sans rythme choisi suit 0,25 kg par semaine.\n\nAprès la mise à jour : la liste est dans `docs/constats-ali.md` (section 0.29.9). En priorité, sur l'iPhone, modifie le raccourci « Spartiate — récupération » comme le dit le guide (étape 3 bis), sinon ses fichiers seront refusés.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.29.9/Spartiate.ipa",
+      "size": 9838216,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
