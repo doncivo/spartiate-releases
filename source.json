@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.29.8",
+          "buildVersion": "0.29.8",
+          "date": "2026-11-26T07:23:53.071Z",
+          "localizedDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 23, rien n'est modifié ni effacé. Les deux appareils restent compatibles avec un appareil resté en 0.29.7.\n\n- **Tes décisions du 26/11** : tes réponses aux questions Q-11 à Q-40 sont consignées (D-647 à D-654, D-657 à D-680 ; D-679 et D-680 validées, D-695) et rangées au registre ; plus aucune question n'est ouverte. Elles seront livrées dans les versions suivantes (0.29.9, puis 0.30.0 à 0.30.3) ; cette version ne change encore rien à l'écran.\n- **Spécification** : la description des droits de l'app sur l'iPhone (PRD § 19.4) dit maintenant ce que l'app porte réellement (une seule autorisation, Apple Santé) ; rien ne change dans l'app installée.\n- **Maintenance** : six fichiers de tests de la synchro passent sur le banc de tests actuel, sans changer l'app.\n\nAprès la mise à jour : rien de nouveau à vérifier à l'écran ; la section « CSP stricte (D-650) » de `docs/constats-ali.md` liste les écrans à ouvrir à chaque version.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.29.8/Spartiate.ipa",
+          "size": 9835680,
+          "sha256": "c8e5bafb6da5971a1696887fe2a4da197c8fd11d8076331fab3602bb2d3b36f2",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.29.7",
           "buildVersion": "0.29.7",
           "date": "2026-11-26T05:27:18.486Z",
@@ -736,11 +746,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.29.7",
-      "versionDate": "2026-11-26T05:27:18.486Z",
-      "versionDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 23, rien n'est modifié ni effacé. Les deux appareils restent compatibles avec un appareil resté en 0.29.6.\n\n- **Textes** : vingt-deux autres groupes de textes de l'interface (entre autres Aujourd'hui, Entraînement et la séance, la génération de séance, Nutrition et les recettes, la récupération, le cardio, la force, la revue hebdomadaire, VISBODY, Plus, les journaux, la première ouverture et les messages de synchro) sont vérifiés à la compilation, comme ceux de la 0.29.6 : dans ces textes, une valeur manquante ou mal nommée est repérée avant la publication. Il ne reste que deux groupes à part, nommés dans le registre. L'affichage ne change pas.\n- **Maintenance** : le contrôle automatique des textes ne se laisse plus tromper par un nom de remplacement. Le démarrage ne charge rien de plus.\n\nAprès la mise à jour : la liste est dans `docs/constats-ali.md` (section 0.29.7). En priorité, sur les deux appareils, parcours les cinq onglets et Plus › Appareils et synchro : aucun texte ne montre d'accolades ni de nom technique à la place d'un mot.",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.29.7/Spartiate.ipa",
-      "size": 9836860,
+      "version": "0.29.8",
+      "versionDate": "2026-11-26T07:23:53.071Z",
+      "versionDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 23, rien n'est modifié ni effacé. Les deux appareils restent compatibles avec un appareil resté en 0.29.7.\n\n- **Tes décisions du 26/11** : tes réponses aux questions Q-11 à Q-40 sont consignées (D-647 à D-654, D-657 à D-680 ; D-679 et D-680 validées, D-695) et rangées au registre ; plus aucune question n'est ouverte. Elles seront livrées dans les versions suivantes (0.29.9, puis 0.30.0 à 0.30.3) ; cette version ne change encore rien à l'écran.\n- **Spécification** : la description des droits de l'app sur l'iPhone (PRD § 19.4) dit maintenant ce que l'app porte réellement (une seule autorisation, Apple Santé) ; rien ne change dans l'app installée.\n- **Maintenance** : six fichiers de tests de la synchro passent sur le banc de tests actuel, sans changer l'app.\n\nAprès la mise à jour : rien de nouveau à vérifier à l'écran ; la section « CSP stricte (D-650) » de `docs/constats-ali.md` liste les écrans à ouvrir à chaque version.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.29.8/Spartiate.ipa",
+      "size": 9835680,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
