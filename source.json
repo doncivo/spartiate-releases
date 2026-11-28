@@ -16,6 +16,16 @@
       "tintColor": "#B8322A",
       "versions": [
         {
+          "version": "0.30.4",
+          "buildVersion": "0.30.4",
+          "date": "2026-11-28T14:00:10.486Z",
+          "localizedDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 25, rien n'est modifié ni effacé.\n\n- **Rythme des mesures, lecture impossible (D-804)** : si Spartiate ne parvient pas à lire tes réglages du rythme, Corps › Mesures le dit (« Réglages du rythme illisibles : rien n'a été modifié. ») avec « Réessayer », et le rythme et le rappel restent inactifs : un choix ne peut plus écraser ton réglage enregistré. Aucun rappel n'est posé sur des réglages inconnus.\n- **Listes de matériel longues protégées (D-805 à D-807)** : si un appareil resté sur une version antérieure à la 0.30.2 réécrit un profil de matériel de plus de 64 matériels (qu'il lit vide), l'appareil à jour garde sa liste, l'inscrit dans le journal des conflits (Plus › Appareils et synchro, réversible) et la renvoie à l'autre appareil. La modification faite sur l'appareil ancien est alors écartée : mets les deux appareils à jour le même jour.\n\nRien de nouveau à constater après cette mise à jour : les essais en attente restent ceux des sections 0.30.2 et 0.30.3 de `docs/constats-ali.md`.",
+          "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.30.4/Spartiate.ipa",
+          "size": 10366086,
+          "sha256": "d997ae4c2d25136b9581e03cddd14e88caaf1b14c525c3fa592351a017d1f59a",
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.30.3",
           "buildVersion": "0.30.3",
           "date": "2026-11-28T03:27:18.560Z",
@@ -796,11 +806,11 @@
           "minOSVersion": "18.0"
         }
       ],
-      "version": "0.30.3",
-      "versionDate": "2026-11-28T03:27:18.560Z",
-      "versionDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 25, rien n'est modifié ni effacé.\n\n- **Lire un PDF (D-676, D-786 à D-790)** : Entraînement › Routines › Importer un programme › « Lire un PDF » lit le texte d'un programme en PDF (10 Mo et 20 pages au plus), sur l'appareil, sans réseau ; les lignes rejoignent le texte et donnent l'aperçu habituel avant confirmation. Un PDF protégé ou scanné est refusé et la raison est dite (pour un scan : fais une capture de la page et lis-la comme une photo). Le fichier n'est jamais enregistré.\n- **Gestes de la séance sur l'iPhone (D-653, D-797 à D-801)** : glisse une série à faire vers la gauche pour la supprimer, « Annuler » (5 s) la remet à sa place ; un appui long sur le titre d'un exercice le soulève pour le déplacer. Un défilement vertical ne supprime rien. Au clavier et avec VoiceOver, « Monter » et « Descendre » font le même déplacement. Sur le PC : pas de glissement à la souris ; au clavier, « Monter » et « Descendre » apparaissent au focus et déplacent un exercice ; sur un écran tactile, les gestes marchent au doigt.\n\nAprès la mise à jour : la liste est dans `docs/constats-ali.md` (section 0.30.3).",
-      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.30.3/Spartiate.ipa",
-      "size": 10364130,
+      "version": "0.30.4",
+      "versionDate": "2026-11-28T14:00:10.486Z",
+      "versionDescription": "**Mets à jour le PC et l'iPhone le même jour.** Aucune migration : ta base reste au schéma 25, rien n'est modifié ni effacé.\n\n- **Rythme des mesures, lecture impossible (D-804)** : si Spartiate ne parvient pas à lire tes réglages du rythme, Corps › Mesures le dit (« Réglages du rythme illisibles : rien n'a été modifié. ») avec « Réessayer », et le rythme et le rappel restent inactifs : un choix ne peut plus écraser ton réglage enregistré. Aucun rappel n'est posé sur des réglages inconnus.\n- **Listes de matériel longues protégées (D-805 à D-807)** : si un appareil resté sur une version antérieure à la 0.30.2 réécrit un profil de matériel de plus de 64 matériels (qu'il lit vide), l'appareil à jour garde sa liste, l'inscrit dans le journal des conflits (Plus › Appareils et synchro, réversible) et la renvoie à l'autre appareil. La modification faite sur l'appareil ancien est alors écartée : mets les deux appareils à jour le même jour.\n\nRien de nouveau à constater après cette mise à jour : les essais en attente restent ceux des sections 0.30.2 et 0.30.3 de `docs/constats-ali.md`.",
+      "downloadURL": "https://github.com/doncivo/spartiate-releases/releases/download/ios-v0.30.4/Spartiate.ipa",
+      "size": 10366086,
       "appPermissions": {
         "entitlements": [],
         "privacy": {
